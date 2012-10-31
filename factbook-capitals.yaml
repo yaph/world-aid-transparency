@@ -1,0 +1,2479 @@
+%YAML 1.1
+---
+# webhosu0_travelchannels.factbook_countries
+-
+  xmlid: "ag"
+  name: "Algeria"
+  fieldid: 4
+  value: "28 00 N, 3 00 E"
+-
+  xmlid: "ag"
+  name: "Algeria"
+  fieldid: 63
+  value: "<i>name: </i>Algiers<br /><i>geographic coordinates: </i>36 45 N, 3 03 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ao"
+  name: "Angola"
+  fieldid: 4
+  value: "12 30 S, 18 30 E"
+-
+  xmlid: "ao"
+  name: "Angola"
+  fieldid: 63
+  value: "<i>name: </i>Luanda<br /><i>geographic coordinates: </i>8 50 S, 13 14 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "bn"
+  name: "Benin"
+  fieldid: 4
+  value: "9 30 N, 2 15 E"
+-
+  xmlid: "bn"
+  name: "Benin"
+  fieldid: 63
+  value: "<i>name: </i>Porto-Novo (official capital)<br /><i>geographic coordinates: </i>6 29 N, 2 37 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>Cotonou (seat of government)"
+-
+  xmlid: "bc"
+  name: "Botswana"
+  fieldid: 4
+  value: "22 00 S, 24 00 E"
+-
+  xmlid: "bc"
+  name: "Botswana"
+  fieldid: 63
+  value: "<i>name: </i>Gaborone<br /><i>geographic coordinates: </i>24 45 S, 25 55 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "uv"
+  name: "Burkina Faso"
+  fieldid: 4
+  value: "13 00 N, 2 00 W"
+-
+  xmlid: "uv"
+  name: "Burkina Faso"
+  fieldid: 63
+  value: "<i>name: </i>Ouagadougou<br /><i>geographic coordinates: </i>12 22 N, 1 31 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "by"
+  name: "Burundi"
+  fieldid: 4
+  value: "3 30 S, 30 00 E"
+-
+  xmlid: "by"
+  name: "Burundi"
+  fieldid: 63
+  value: "<i>name: </i>Bujumbura<br /><i>geographic coordinates: </i>3 22 S, 29 21 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "cm"
+  name: "Cameroon"
+  fieldid: 4
+  value: "6 00 N, 12 00 E"
+-
+  xmlid: "cm"
+  name: "Cameroon"
+  fieldid: 63
+  value: "<i>name: </i>Yaounde<br /><i>geographic coordinates: </i>3 52 N, 11 31 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "cv"
+  name: "Cape Verde"
+  fieldid: 4
+  value: "16 00 N, 24 00 W"
+-
+  xmlid: "cv"
+  name: "Cape Verde"
+  fieldid: 63
+  value: "<i>name: </i>Praia<br /><i>geographic coordinates: </i>14 55 N, 23 31 W<br /><i>time difference: </i>UTC-1 (4 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ct"
+  name: "Central African Republic"
+  fieldid: 4
+  value: "7 00 N, 21 00 E"
+-
+  xmlid: "ct"
+  name: "Central African Republic"
+  fieldid: 63
+  value: "<i>name: </i>Bangui<br /><i>geographic coordinates: </i>4 22 N, 18 35 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "cd"
+  name: "Chad"
+  fieldid: 4
+  value: "15 00 N, 19 00 E"
+-
+  xmlid: "cd"
+  name: "Chad"
+  fieldid: 63
+  value: "<i>name: </i>N'Djamena<br /><i>geographic coordinates: </i>12 06 N, 15 02 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "cn"
+  name: "Comoros"
+  fieldid: 4
+  value: "12 10 S, 44 15 E"
+-
+  xmlid: "cn"
+  name: "Comoros"
+  fieldid: 63
+  value: "<i>name: </i>Moroni<br /><i>geographic coordinates: </i>11 42 S, 43 14 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "cg"
+  name: "Congo, Democratic Republic of the"
+  fieldid: 4
+  value: "0 00 N, 25 00 E"
+-
+  xmlid: "cg"
+  name: "Congo, Democratic Republic of the"
+  fieldid: 63
+  value: "<i>name: </i>Kinshasa<br /><i>geographic coordinates: </i>4 19 S, 15 18 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "cf"
+  name: "Congo, Republic of the"
+  fieldid: 4
+  value: "1 00 S, 15 00 E"
+-
+  xmlid: "cf"
+  name: "Congo, Republic of the"
+  fieldid: 63
+  value: "<i>name: </i>Brazzaville<br /><i>geographic coordinates: </i>4 15 S, 15 17 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "iv"
+  name: "Cote d'Ivoire"
+  fieldid: 4
+  value: "8 00 N, 5 00 W"
+-
+  xmlid: "iv"
+  name: "Cote d'Ivoire"
+  fieldid: 63
+  value: "<i>name: </i>Yamoussoukro<br /><i>geographic coordinates: </i>6 49 N, 5 17 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>although Yamoussoukro has been the official capital since 1983, Abidjan remains the commercial and administrative center; the US, like other countries, maintains its Embassy in Abidjan"
+-
+  xmlid: "dj"
+  name: "Djibouti"
+  fieldid: 4
+  value: "11 30 N, 43 00 E"
+-
+  xmlid: "dj"
+  name: "Djibouti"
+  fieldid: 63
+  value: "<i>name: </i>Djibouti<br /><i>geographic coordinates: </i>11 35 N, 43 09 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "eg"
+  name: "Egypt"
+  fieldid: 4
+  value: "27 00 N, 30 00 E"
+-
+  xmlid: "eg"
+  name: "Egypt"
+  fieldid: 63
+  value: "<i>name: </i>Cairo<br /><i>geographic coordinates: </i>30 03 N, 31 15 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ek"
+  name: "Equatorial Guinea"
+  fieldid: 4
+  value: "2 00 N, 10 00 E"
+-
+  xmlid: "ek"
+  name: "Equatorial Guinea"
+  fieldid: 63
+  value: "<i>name: </i>Malabo<br /><i>geographic coordinates: </i>3 45 N, 8 47 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "er"
+  name: "Eritrea"
+  fieldid: 4
+  value: "15 00 N, 39 00 E"
+-
+  xmlid: "er"
+  name: "Eritrea"
+  fieldid: 63
+  value: "<i>name: </i>Asmara (Asmera)<br /><i>geographic coordinates: </i>15 20 N, 38 56 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "et"
+  name: "Ethiopia"
+  fieldid: 4
+  value: "8 00 N, 38 00 E"
+-
+  xmlid: "et"
+  name: "Ethiopia"
+  fieldid: 63
+  value: "<i>name: </i>Addis Ababa<br /><i>geographic coordinates: </i>9 02 N, 38 42 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "gb"
+  name: "Gabon"
+  fieldid: 4
+  value: "1 00 S, 11 45 E"
+-
+  xmlid: "gb"
+  name: "Gabon"
+  fieldid: 63
+  value: "<i>name: </i>Libreville<br /><i>geographic coordinates: </i>0 23 N, 9 27 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ga"
+  name: "Gambia, The"
+  fieldid: 4
+  value: "13 28 N, 16 34 W"
+-
+  xmlid: "ga"
+  name: "Gambia, The"
+  fieldid: 63
+  value: "<i>name: </i>Banjul<br /><i>geographic coordinates: </i>13 27 N, 16 34 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "gh"
+  name: "Ghana"
+  fieldid: 4
+  value: "8 00 N, 2 00 W"
+-
+  xmlid: "gh"
+  name: "Ghana"
+  fieldid: 63
+  value: "<i>name: </i>Accra<br /><i>geographic coordinates: </i>5 33 N, 0 13 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "gv"
+  name: "Guinea"
+  fieldid: 4
+  value: "11 00 N, 10 00 W"
+-
+  xmlid: "gv"
+  name: "Guinea"
+  fieldid: 63
+  value: "<i>name: </i>Conakry<br /><i>geographic coordinates: </i>9 33 N, 13 42 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "pu"
+  name: "Guinea-Bissau"
+  fieldid: 4
+  value: "12 00 N, 15 00 W"
+-
+  xmlid: "pu"
+  name: "Guinea-Bissau"
+  fieldid: 63
+  value: "<i>name: </i>Bissau<br /><i>geographic coordinates: </i>11 51 N, 15 35 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ke"
+  name: "Kenya"
+  fieldid: 4
+  value: "1 00 N, 38 00 E"
+-
+  xmlid: "ke"
+  name: "Kenya"
+  fieldid: 63
+  value: "<i>name: </i>Nairobi<br /><i>geographic coordinates: </i>1 17 S, 36 49 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "lt"
+  name: "Lesotho"
+  fieldid: 4
+  value: "29 30 S, 28 30 E"
+-
+  xmlid: "lt"
+  name: "Lesotho"
+  fieldid: 63
+  value: "<i>name: </i>Maseru<br /><i>geographic coordinates: </i>29 19 S, 27 29 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "li"
+  name: "Liberia"
+  fieldid: 4
+  value: "6 30 N, 9 30 W"
+-
+  xmlid: "li"
+  name: "Liberia"
+  fieldid: 63
+  value: "<i>name: </i>Monrovia<br /><i>geographic coordinates: </i>6 18 N, 10 48 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ly"
+  name: "Libya"
+  fieldid: 4
+  value: "25 00 N, 17 00 E"
+-
+  xmlid: "ly"
+  name: "Libya"
+  fieldid: 63
+  value: "<i>name: </i>Tripoli (Tarabulus)<br /><i>geographic coordinates: </i>32 53 N, 13 10 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ma"
+  name: "Madagascar"
+  fieldid: 4
+  value: "20 00 S, 47 00 E"
+-
+  xmlid: "ma"
+  name: "Madagascar"
+  fieldid: 63
+  value: "<i>name: </i>Antananarivo<br /><i>geographic coordinates: </i>18 55 S, 47 31 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "mi"
+  name: "Malawi"
+  fieldid: 4
+  value: "13 30 S, 34 00 E"
+-
+  xmlid: "mi"
+  name: "Malawi"
+  fieldid: 63
+  value: "<i>name: </i>Lilongwe<br /><i>geographic coordinates: </i>13 59 S, 33 47 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ml"
+  name: "Mali"
+  fieldid: 4
+  value: "17 00 N, 4 00 W"
+-
+  xmlid: "ml"
+  name: "Mali"
+  fieldid: 63
+  value: "<i>name: </i>Bamako<br /><i>geographic coordinates: </i>12 39 N, 8 00 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "mr"
+  name: "Mauritania"
+  fieldid: 4
+  value: "20 00 N, 12 00 W"
+-
+  xmlid: "mr"
+  name: "Mauritania"
+  fieldid: 63
+  value: "<i>name: </i>Nouakchott<br /><i>geographic coordinates: </i>18 07 N, 16 02 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "mp"
+  name: "Mauritius"
+  fieldid: 4
+  value: "20 17 S, 57 33 E"
+-
+  xmlid: "mp"
+  name: "Mauritius"
+  fieldid: 63
+  value: "<i>name: </i>Port Louis<br /><i>geographic coordinates: </i>20 09 S, 57 29 E<br /><i>time difference: </i>UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "mo"
+  name: "Morocco"
+  fieldid: 4
+  value: "32 00 N, 5 00 W"
+-
+  xmlid: "mo"
+  name: "Morocco"
+  fieldid: 63
+  value: "<i>name: </i>Rabat<br /><i>geographic coordinates: </i>34 01 N, 6 49 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1 hr, begins first Sunday in April; ends last Sunday in July"
+-
+  xmlid: "mz"
+  name: "Mozambique"
+  fieldid: 4
+  value: "18 15 S, 35 00 E"
+-
+  xmlid: "mz"
+  name: "Mozambique"
+  fieldid: 63
+  value: "<i>name: </i>Maputo<br /><i>geographic coordinates: </i>25 57 S, 32 35 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "wa"
+  name: "Namibia"
+  fieldid: 4
+  value: "22 00 S, 17 00 E"
+-
+  xmlid: "wa"
+  name: "Namibia"
+  fieldid: 63
+  value: "<i>name: </i>Windhoek<br /><i>geographic coordinates: </i>22 34 S, 17 05 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins first Sunday in September; ends first Sunday in April"
+-
+  xmlid: "ng"
+  name: "Niger"
+  fieldid: 4
+  value: "16 00 N, 8 00 E"
+-
+  xmlid: "ng"
+  name: "Niger"
+  fieldid: 63
+  value: "<i>name: </i>Niamey<br /><i>geographic coordinates: </i>13 31 N, 2 07 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ni"
+  name: "Nigeria"
+  fieldid: 4
+  value: "10 00 N, 8 00 E"
+-
+  xmlid: "ni"
+  name: "Nigeria"
+  fieldid: 63
+  value: "<i>name: </i>Abuja<br /><i>geographic coordinates: </i>9 05 N, 7 32 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "rw"
+  name: "Rwanda"
+  fieldid: 4
+  value: "2 00 S, 30 00 E"
+-
+  xmlid: "rw"
+  name: "Rwanda"
+  fieldid: 63
+  value: "<i>name: </i>Kigali<br /><i>geographic coordinates: </i>1 57 S, 30 04 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "sh"
+  name: "Saint Helena, Ascension, and Tristan da Cunha"
+  fieldid: 4
+  value: "<i>Saint Helena: </i>15 57 S, 5 42 W<br /><i>Ascension Island: </i>7 57 S, 14 22 W<br /><i>Tristan da Cunha island group: </i>37 15 S, 12 30 W"
+-
+  xmlid: "sh"
+  name: "Saint Helena, Ascension, and Tristan da Cunha"
+  fieldid: 63
+  value: "<i>name: </i>Jamestown<br /><i>geographic coordinates: </i>15 56 S, 5 44 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "tp"
+  name: "Sao Tome and Principe"
+  fieldid: 4
+  value: "1 00 N, 7 00 E"
+-
+  xmlid: "tp"
+  name: "Sao Tome and Principe"
+  fieldid: 63
+  value: "<i>name: </i>Sao Tome<br /><i>geographic coordinates: </i>0 12 N, 6 39 E<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "sg"
+  name: "Senegal"
+  fieldid: 4
+  value: "14 00 N, 14 00 W"
+-
+  xmlid: "sg"
+  name: "Senegal"
+  fieldid: 63
+  value: "<i>name: </i>Dakar<br /><i>geographic coordinates: </i>14 40 N, 17 26 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "se"
+  name: "Seychelles"
+  fieldid: 4
+  value: "4 35 S, 55 40 E"
+-
+  xmlid: "se"
+  name: "Seychelles"
+  fieldid: 63
+  value: "<i>name: </i>Victoria<br /><i>geographic coordinates: </i>4 38 S, 55 27 E<br /><i>time difference: </i>UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "sl"
+  name: "Sierra Leone"
+  fieldid: 4
+  value: "8 30 N, 11 30 W"
+-
+  xmlid: "sl"
+  name: "Sierra Leone"
+  fieldid: 63
+  value: "<i>name: </i>Freetown<br /><i>geographic coordinates: </i>8 30 N, 13 15 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "so"
+  name: "Somalia"
+  fieldid: 4
+  value: "10 00 N, 49 00 E"
+-
+  xmlid: "so"
+  name: "Somalia"
+  fieldid: 63
+  value: "<i>name: </i>Mogadishu<br /><i>geographic coordinates: </i>2 04 N, 45 22 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "sf"
+  name: "South Africa"
+  fieldid: 4
+  value: "29 00 S, 24 00 E"
+-
+  xmlid: "sf"
+  name: "South Africa"
+  fieldid: 63
+  value: "<i>name: </i>Pretoria (administrative capital)<br /><i>geographic coordinates: </i>25 42 S, 28 13 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>Cape Town (legislative capital); Bloemfontein (judicial capital)"
+-
+  xmlid: "od"
+  name: "South Sudan"
+  fieldid: 4
+  value: "8 00 N, 30 00 E"
+-
+  xmlid: "od"
+  name: "South Sudan"
+  fieldid: 63
+  value: "<i>name: </i>Juba<br /><i>geographic coordinates: </i>04 51 N, 31 37 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "su"
+  name: "Sudan"
+  fieldid: 4
+  value: "15 00 N, 30 00 E"
+-
+  xmlid: "su"
+  name: "Sudan"
+  fieldid: 63
+  value: "<i>name: </i>Khartoum<br /><i>geographic coordinates: </i>15 36 N, 32 32 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "wz"
+  name: "Swaziland"
+  fieldid: 4
+  value: "26 30 S, 31 30 E"
+-
+  xmlid: "wz"
+  name: "Swaziland"
+  fieldid: 63
+  value: "<i>name: </i>Mbabane<br /><i>geographic coordinates: </i>26 18 S, 31 06 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>Lobamba (royal and legislative capital)"
+-
+  xmlid: "tz"
+  name: "Tanzania"
+  fieldid: 4
+  value: "6 00 S, 35 00 E"
+-
+  xmlid: "tz"
+  name: "Tanzania"
+  fieldid: 63
+  value: "<i>name: </i>Dar es Salaam<br /><i>geographic coordinates: </i>6 48 S, 39 17 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>legislative offices have been transferred to Dodoma, which is planned as the new national capital, and the National Assembly now meets there on a regular basis; the Executive Branch with all ministries and diplomatic representation remains located in Dar es Salaam"
+-
+  xmlid: "to"
+  name: "Togo"
+  fieldid: 4
+  value: "8 00 N, 1 10 E"
+-
+  xmlid: "to"
+  name: "Togo"
+  fieldid: 63
+  value: "<i>name: </i>Lome<br /><i>geographic coordinates: </i>6 08 N, 1 13 E<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ts"
+  name: "Tunisia"
+  fieldid: 4
+  value: "34 00 N, 9 00 E"
+-
+  xmlid: "ts"
+  name: "Tunisia"
+  fieldid: 63
+  value: "<i>name: </i>Tunis<br /><i>geographic coordinates: </i>36 48 N, 10 11 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ug"
+  name: "Uganda"
+  fieldid: 4
+  value: "1 00 N, 32 00 E"
+-
+  xmlid: "ug"
+  name: "Uganda"
+  fieldid: 63
+  value: "<i>name: </i>Kampala<br /><i>geographic coordinates: </i>0 19 N, 32 25 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "wi"
+  name: "Western Sahara"
+  fieldid: 4
+  value: "24 30 N, 13 00 W"
+-
+  xmlid: "wi"
+  name: "Western Sahara"
+  fieldid: 63
+  value: "none<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins first Sunday in April; ends last Sunday in July"
+-
+  xmlid: "za"
+  name: "Zambia"
+  fieldid: 4
+  value: "15 00 S, 30 00 E"
+-
+  xmlid: "za"
+  name: "Zambia"
+  fieldid: 63
+  value: "<i>name: </i>Lusaka<br /><i>geographic coordinates: </i>15 25 S, 28 17 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "zi"
+  name: "Zimbabwe"
+  fieldid: 4
+  value: "20 00 S, 30 00 E"
+-
+  xmlid: "zi"
+  name: "Zimbabwe"
+  fieldid: 63
+  value: "<i>name: </i>Harare<br /><i>geographic coordinates: </i>17 50 S, 31 03 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ay"
+  name: "Antarctica"
+  fieldid: 4
+  value: "90 00 S, 0 00 E"
+-
+  xmlid: "bv"
+  name: "Bouvet Island"
+  fieldid: 4
+  value: "54 26 S, 3 24 E"
+-
+  xmlid: "fs"
+  name: "French Southern and Antarctic Lands"
+  fieldid: 4
+  value: "<i>Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul): </i>37 50 S, 77 32 E<br /><i>Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul): </i>38 72 S, 77 53 E<br /><i>Iles Crozet: </i>46 25 S, 51 00 E<br /><i>Iles Kerguelen: </i>49 15 S, 69 35 E<br /><i>Bassas da India (Iles Eparses): </i>21 30 S, 39 50 E<br /><i>Europa Island (Iles Eparses): </i>22 20 S, 40 22 E<br /><i>Glorioso Islands (Iles Eparses): </i>11 30 S, 47 20 E<br /><i>Juan de Nova Island (Iles Eparses): </i>17 03 S, 42 45 E<br /><i>Tromelin Island (Iles Eparses): </i>15 52 S, 54 25 E"
+-
+  xmlid: "hm"
+  name: "Heard Island and McDonald Islands"
+  fieldid: 4
+  value: "53 06 S, 72 31 E"
+-
+  xmlid: "aq"
+  name: "American Samoa"
+  fieldid: 4
+  value: "14 20 S, 170 00 W"
+-
+  xmlid: "aq"
+  name: "American Samoa"
+  fieldid: 63
+  value: "<i>name: </i>Pago Pago<br /><i>geographic coordinates: </i>14 16 S, 170 42 W<br /><i>time difference: </i>UTC-11 (6 hours behind Washington, DC during Standard Time)"
+-
+  xmlid: "at"
+  name: "Ashmore and Cartier Islands"
+  fieldid: 4
+  value: "12 14 S, 123 05 E"
+-
+  xmlid: "as"
+  name: "Australia"
+  fieldid: 4
+  value: "27 00 S, 133 00 E"
+-
+  xmlid: "as"
+  name: "Australia"
+  fieldid: 63
+  value: "<i>name: </i>Canberra<br /><i>geographic coordinates: </i>35 17 S, 149 13 E<br /><i>time difference: </i>UTC+10 (15 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins first Sunday in October; ends first Sunday in April<br /><i><b>note:</b> </i>Australia is divided into three time zones"
+-
+  xmlid: "kt"
+  name: "Christmas Island"
+  fieldid: 4
+  value: "10 30 S, 105 40 E"
+-
+  xmlid: "kt"
+  name: "Christmas Island"
+  fieldid: 63
+  value: "<i>name: </i>The Settlement<br /><i>geographic coordinates: </i>10 25 S, 105 43 E<br /><i>time difference: </i>UTC+7 (12 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ck"
+  name: "Cocos (Keeling) Islands"
+  fieldid: 4
+  value: "12 30 S, 96 50 E"
+-
+  xmlid: "ck"
+  name: "Cocos (Keeling) Islands"
+  fieldid: 63
+  value: "<i>name: </i>West Island<br /><i>geographic coordinates: </i>12 10 S, 96 50 E<br /><i>time difference: </i>UTC+6.5 (11.5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "cw"
+  name: "Cook Islands"
+  fieldid: 4
+  value: "21 14 S, 159 46 W"
+-
+  xmlid: "cw"
+  name: "Cook Islands"
+  fieldid: 63
+  value: "<i>name: </i>Avarua<br /><i>geographic coordinates: </i>21 12 S, 159 46 W<br /><i>time difference: </i>UTC-10 (5 hours behind Washington, DC during Standard Time)"
+-
+  xmlid: "cr"
+  name: "Coral Sea Islands"
+  fieldid: 4
+  value: "18 00 S, 152 00 E"
+-
+  xmlid: "fj"
+  name: "Fiji"
+  fieldid: 4
+  value: "18 00 S, 175 00 E"
+-
+  xmlid: "fj"
+  name: "Fiji"
+  fieldid: 63
+  value: "<i>name: </i>Suva (on Viti Levu)<br /><i>geographic coordinates: </i>18 08 S, 178 25 E<br /><i>time difference: </i>UTC+12 (17 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins fourth Sunday in October; ends first Sunday in March"
+-
+  xmlid: "fp"
+  name: "French Polynesia"
+  fieldid: 4
+  value: "15 00 S, 140 00 W"
+-
+  xmlid: "fp"
+  name: "French Polynesia"
+  fieldid: 63
+  value: "<i>name: </i>Papeete (located on Tahiti)<br /><i>geographic coordinates: </i>17 32 S, 149 34 W<br /><i>time difference: </i>UTC-10 (5 hours behind Washington, DC during Standard Time)"
+-
+  xmlid: "gq"
+  name: "Guam"
+  fieldid: 4
+  value: "13 28 N, 144 47 E"
+-
+  xmlid: "gq"
+  name: "Guam"
+  fieldid: 63
+  value: "<i>name: </i>Hagatna (Agana)<br /><i>geographic coordinates: </i>13 28 N, 144 44 E<br /><i>time difference: </i>UTC+10 (15 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "kr"
+  name: "Kiribati"
+  fieldid: 4
+  value: "1 25 N, 173 00 E"
+-
+  xmlid: "kr"
+  name: "Kiribati"
+  fieldid: 63
+  value: "<i>name: </i>Tarawa<br /><i>geographic coordinates: </i>1 19 N, 172 58 E<br /><i>time difference: </i>UTC+12 (17 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>on 1 January 1995, Kiribati proclaimed that all of its territory was in the same time zone as its Gilbert Islands group (UTC +12) even though the Phoenix Islands and the Line Islands under its jurisdiction were on the other side of the International Date Line"
+-
+  xmlid: "rm"
+  name: "Marshall Islands"
+  fieldid: 4
+  value: "9 00 N, 168 00 E"
+-
+  xmlid: "rm"
+  name: "Marshall Islands"
+  fieldid: 63
+  value: "<i>name: </i>Majuro<br /><i>geographic coordinates: </i>7 06 N, 171 23 E<br /><i>time difference: </i>UTC+12 (17 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "fm"
+  name: "Micronesia, Federated States of"
+  fieldid: 4
+  value: "6 55 N, 158 15 E"
+-
+  xmlid: "fm"
+  name: "Micronesia, Federated States of"
+  fieldid: 63
+  value: "<i>name: </i>Palikir<br /><i>geographic coordinates: </i>6 55 N, 158 09 E<br /><i>time difference: </i>UTC+11 (16 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "nr"
+  name: "Nauru"
+  fieldid: 4
+  value: "0 32 S, 166 55 E"
+-
+  xmlid: "nr"
+  name: "Nauru"
+  fieldid: 63
+  value: "no official capital; government offices in Yaren District<br /><i>time difference: </i>UTC+12 (17 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "nc"
+  name: "New Caledonia"
+  fieldid: 4
+  value: "21 30 S, 165 30 E"
+-
+  xmlid: "nc"
+  name: "New Caledonia"
+  fieldid: 63
+  value: "<i>name: </i>Noumea<br /><i>geographic coordinates: </i>22 16 S, 166 27 E<br /><i>time difference: </i>UTC+11 (16 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "nz"
+  name: "New Zealand"
+  fieldid: 4
+  value: "41 00 S, 174 00 E"
+-
+  xmlid: "nz"
+  name: "New Zealand"
+  fieldid: 63
+  value: "<i>name: </i>Wellington<br /><i>geographic coordinates: </i>41 28 S, 174 51 E<br /><i>time difference: </i>UTC+12 (17 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in September; ends first Sunday in April<br /><i><b>note:</b> </i>New Zealand is divided into two time zones - New Zealand standard time (12 hours in advance of UTC), and Chatham Islands time (45 minutes in advance of New Zealand standard time)"
+-
+  xmlid: "ne"
+  name: "Niue"
+  fieldid: 4
+  value: "19 02 S, 169 52 W"
+-
+  xmlid: "ne"
+  name: "Niue"
+  fieldid: 63
+  value: "<i>name: </i>Alofi<br /><i>geographic coordinates: </i>19 01 S, 169 55 W<br /><i>time difference: </i>UTC-11 (6 hours behind Washington, DC during Standard Time)"
+-
+  xmlid: "nf"
+  name: "Norfolk Island"
+  fieldid: 4
+  value: "29 02 S, 167 57 E"
+-
+  xmlid: "nf"
+  name: "Norfolk Island"
+  fieldid: 63
+  value: "<i>name: </i>Kingston<br /><i>geographic coordinates: </i>29 03 S, 167 58 E<br /><i>time difference: </i>UTC+11.5 (16.5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "cq"
+  name: "Northern Mariana Islands"
+  fieldid: 4
+  value: "15 12 N, 145 45 E"
+-
+  xmlid: "cq"
+  name: "Northern Mariana Islands"
+  fieldid: 63
+  value: "<i>name: </i>Saipan<br /><i>geographic coordinates: </i>15 12 N, 145 45 E<br /><i>time difference: </i>UTC+10 (15 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ps"
+  name: "Palau"
+  fieldid: 4
+  value: "7 30 N, 134 30 E"
+-
+  xmlid: "ps"
+  name: "Palau"
+  fieldid: 63
+  value: "<i>name: </i>Melekeok<br /><i>geographic coordinates: </i>7 29 N, 134 38 E<br /><i>time difference: </i>UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "pc"
+  name: "Pitcairn Islands"
+  fieldid: 4
+  value: "25 04 S, 130 06 W"
+-
+  xmlid: "pc"
+  name: "Pitcairn Islands"
+  fieldid: 63
+  value: "<i>name: </i>Adamstown<br /><i>geographic coordinates: </i>25 04 S, 130 05 W<br /><i>time difference: </i>UTC-9 (4 hours behind Washington, DC during Standard Time)"
+-
+  xmlid: "ws"
+  name: "Samoa"
+  fieldid: 4
+  value: "13 35 S, 172 20 W"
+-
+  xmlid: "ws"
+  name: "Samoa"
+  fieldid: 63
+  value: "<i>name: </i>Apia<br /><i>geographic coordinates: </i>13 50 S, 171 44 W<br /><i>time difference: </i>UTC+13 (18 hours ahead of Washington, DC during Standard Time)<br />+1hr, begins last Sunday in September; ends first Sunday in April"
+-
+  xmlid: "bp"
+  name: "Solomon Islands"
+  fieldid: 4
+  value: "8 00 S, 159 00 E"
+-
+  xmlid: "bp"
+  name: "Solomon Islands"
+  fieldid: 63
+  value: "<i>name: </i>Honiara<br /><i>geographic coordinates: </i>9 26 S, 159 57 E<br /><i>time difference: </i>UTC+11 (16 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "tl"
+  name: "Tokelau"
+  fieldid: 4
+  value: "9 00 S, 172 00 W"
+-
+  xmlid: "tl"
+  name: "Tokelau"
+  fieldid: 63
+  value: "none; each atoll has its own administrative center<br /><i>time difference: </i>UTC+14 (19 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "tn"
+  name: "Tonga"
+  fieldid: 4
+  value: "20 00 S, 175 00 W"
+-
+  xmlid: "tn"
+  name: "Tonga"
+  fieldid: 63
+  value: "<i>name: </i>Nuku'alofa<br /><i>geographic coordinates: </i>21 08 S, 175 12 W<br /><i>time difference: </i>UTC+13 (18 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "tv"
+  name: "Tuvalu"
+  fieldid: 4
+  value: "8 00 S, 178 00 E"
+-
+  xmlid: "tv"
+  name: "Tuvalu"
+  fieldid: 63
+  value: "<i>name: </i>Funafuti<br /><i>geographic coordinates: </i>8 30 S, 179 12 E<br /><i>time difference: </i>UTC+12 (17 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>administrative offices are in Vaiaku Village on Fongafale Islet"
+-
+  xmlid: "um"
+  name: "United States Pacific Island Wildlife Refuges"
+  fieldid: 4
+  value: "<i>Baker Island: </i>0 13 N, 176 28 W<br /><i>Howland Island: </i>0 48 N, 176 38 W<br /><i>Jarvis Island: </i>0 23 S, 160 01 W<br /><i>Johnston Atoll: </i>16 45 N, 169 31 W<br /><i>Kingman Reef: </i>6 23 N, 162 25 W<br /><i>Midway Islands: </i>28 12 N, 177 22 W<br /><i>Palmyra Atoll: </i>5 53 N, 162 05 W"
+-
+  xmlid: "nh"
+  name: "Vanuatu"
+  fieldid: 4
+  value: "16 00 S, 167 00 E"
+-
+  xmlid: "nh"
+  name: "Vanuatu"
+  fieldid: 63
+  value: "<i>name: </i>Port-Vila (on Efate)<br /><i>geographic coordinates: </i>17 44 S, 168 19 E<br /><i>time difference: </i>UTC+11 (16 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "wq"
+  name: "Wake Island"
+  fieldid: 4
+  value: "19 17 N, 166 39 E"
+-
+  xmlid: "wf"
+  name: "Wallis and Futuna"
+  fieldid: 4
+  value: "13 18 S, 176 12 W"
+-
+  xmlid: "wf"
+  name: "Wallis and Futuna"
+  fieldid: 63
+  value: "<i>name: </i>Mata-Utu (on Ile Uvea)<br /><i>geographic coordinates: </i>13 57 S, 171 56 W<br /><i>time difference: </i>UTC+12 (17 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "av"
+  name: "Anguilla"
+  fieldid: 4
+  value: "18 15 N, 63 10 W"
+-
+  xmlid: "av"
+  name: "Anguilla"
+  fieldid: 63
+  value: "<i>name: </i>The Valley<br /><i>geographic coordinates: </i>18 13 N, 63 03 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ac"
+  name: "Antigua and Barbuda"
+  fieldid: 4
+  value: "17 03 N, 61 48 W"
+-
+  xmlid: "ac"
+  name: "Antigua and Barbuda"
+  fieldid: 63
+  value: "<i>name: </i>Saint John's<br /><i>geographic coordinates: </i>17 07 N, 61 51 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "aa"
+  name: "Aruba"
+  fieldid: 4
+  value: "12 30 N, 69 58 W"
+-
+  xmlid: "aa"
+  name: "Aruba"
+  fieldid: 63
+  value: "<i>name: </i>Oranjestad<br /><i>geographic coordinates: </i>12 31 N, 70 02 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "bf"
+  name: "Bahamas, The"
+  fieldid: 4
+  value: "24 15 N, 76 00 W"
+-
+  xmlid: "bf"
+  name: "Bahamas, The"
+  fieldid: 63
+  value: "<i>name: </i>Nassau<br /><i>geographic coordinates: </i>25 05 N, 77 21 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins second Sunday in March; ends first Sunday in November"
+-
+  xmlid: "bb"
+  name: "Barbados"
+  fieldid: 4
+  value: "13 10 N, 59 32 W"
+-
+  xmlid: "bb"
+  name: "Barbados"
+  fieldid: 63
+  value: "<i>name: </i>Bridgetown<br /><i>geographic coordinates: </i>13 06 N, 59 37 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "bh"
+  name: "Belize"
+  fieldid: 4
+  value: "17 15 N, 88 45 W"
+-
+  xmlid: "bh"
+  name: "Belize"
+  fieldid: 63
+  value: "<i>name: </i>Belmopan<br /><i>geographic coordinates: </i>17 15 N, 88 46 W<br /><i>time difference: </i>UTC-6 (1 hour behind Washington, DC during Standard Time)"
+-
+  xmlid: "vi"
+  name: "British Virgin Islands"
+  fieldid: 4
+  value: "18 30 N, 64 30 W"
+-
+  xmlid: "vi"
+  name: "British Virgin Islands"
+  fieldid: 63
+  value: "<i>name: </i>Road Town<br /><i>geographic coordinates: </i>18 27 N, 64 37 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "cj"
+  name: "Cayman Islands"
+  fieldid: 4
+  value: "19 30 N, 80 30 W"
+-
+  xmlid: "cj"
+  name: "Cayman Islands"
+  fieldid: 63
+  value: "<i>name: </i>George Town (on Grand Cayman)<br /><i>geographic coordinates: </i>19 18 N, 81 23 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)"
+-
+  xmlid: "cs"
+  name: "Costa Rica"
+  fieldid: 4
+  value: "10 00 N, 84 00 W"
+-
+  xmlid: "cs"
+  name: "Costa Rica"
+  fieldid: 63
+  value: "<i>name: </i>San Jose<br /><i>geographic coordinates: </i>9 56 N, 84 05 W<br /><i>time difference: </i>UTC-6 (1 hour behind Washington, DC during Standard Time)"
+-
+  xmlid: "cu"
+  name: "Cuba"
+  fieldid: 4
+  value: "21 30 N, 80 00 W"
+-
+  xmlid: "cu"
+  name: "Cuba"
+  fieldid: 63
+  value: "<i>name: </i>Havana<br /><i>geographic coordinates: </i>23 07 N, 82 21 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins third Sunday in March; ends last Sunday in October; note - Cuba has been known to alter the schedule of DST on short notice in an attempt to conserve electricity for lighting"
+-
+  xmlid: "cc"
+  name: "Curacao"
+  fieldid: 4
+  value: "12 10 N, 69 00 W"
+-
+  xmlid: "cc"
+  name: "Curacao"
+  fieldid: 63
+  value: "<i>name: </i>Willemstad<br /><i>geographic coordinates: </i>12 06 N, 68 55 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "do"
+  name: "Dominica"
+  fieldid: 4
+  value: "15 25 N, 61 20 W"
+-
+  xmlid: "do"
+  name: "Dominica"
+  fieldid: 63
+  value: "<i>name: </i>Roseau<br /><i>geographic coordinates: </i>15 18 N, 61 24 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "dr"
+  name: "Dominican Republic"
+  fieldid: 4
+  value: "19 00 N, 70 40 W"
+-
+  xmlid: "dr"
+  name: "Dominican Republic"
+  fieldid: 63
+  value: "<i>name: </i>Santo Domingo<br /><i>geographic coordinates: </i>18 28 N, 69 54 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "es"
+  name: "El Salvador"
+  fieldid: 4
+  value: "13 50 N, 88 55 W"
+-
+  xmlid: "es"
+  name: "El Salvador"
+  fieldid: 63
+  value: "<i>name: </i>San Salvador<br /><i>geographic coordinates: </i>13 42 N, 89 12 W<br /><i>time difference: </i>UTC-6 (1 hour behind Washington, DC during Standard Time)<br /><i>daylight saving time: </i>none scheduled for 2011"
+-
+  xmlid: "gj"
+  name: "Grenada"
+  fieldid: 4
+  value: "12 07 N, 61 40 W"
+-
+  xmlid: "gj"
+  name: "Grenada"
+  fieldid: 63
+  value: "<i>name: </i>Saint George's<br /><i>geographic coordinates: </i>12 03 N, 61 45 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "gt"
+  name: "Guatemala"
+  fieldid: 4
+  value: "15 30 N, 90 15 W"
+-
+  xmlid: "gt"
+  name: "Guatemala"
+  fieldid: 63
+  value: "<i>name: </i>Guatemala City<br /><i>geographic coordinates: </i>14 37 N, 90 31 W<br /><i>time difference: </i>UTC-6 (1 hour behind Washington, DC during Standard Time)"
+-
+  xmlid: "ha"
+  name: "Haiti"
+  fieldid: 4
+  value: "19 00 N, 72 25 W"
+-
+  xmlid: "ha"
+  name: "Haiti"
+  fieldid: 63
+  value: "<i>name: </i>Port-au-Prince<br /><i>geographic coordinates: </i>18 32 N, 72 20 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)<br /><i>daylight saving time: </i>no DST planned for 2012"
+-
+  xmlid: "ho"
+  name: "Honduras"
+  fieldid: 4
+  value: "15 00 N, 86 30 W"
+-
+  xmlid: "ho"
+  name: "Honduras"
+  fieldid: 63
+  value: "<i>name: </i>Tegucigalpa<br /><i>geographic coordinates: </i>14 06 N, 87 13 W<br /><i>time difference: </i>UTC-6 (1 hour behind Washington, DC during Standard Time)<br /><i>daylight saving time: </i>none scheduled for 2011"
+-
+  xmlid: "jm"
+  name: "Jamaica"
+  fieldid: 4
+  value: "18 15 N, 77 30 W"
+-
+  xmlid: "jm"
+  name: "Jamaica"
+  fieldid: 63
+  value: "<i>name: </i>Kingston<br /><i>geographic coordinates: </i>18 00 N, 76 48 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)"
+-
+  xmlid: "mh"
+  name: "Montserrat"
+  fieldid: 4
+  value: "16 45 N, 62 12 W"
+-
+  xmlid: "mh"
+  name: "Montserrat"
+  fieldid: 63
+  value: "<i>name: </i>Plymouth<br /><i>geographic coordinates: </i>16 42 N, 62 13 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>Plymouth was abandoned in 1997 because of volcanic activity; interim government buildings have been built at Brades Estate in the Carr's Bay/Little Bay vicinity at the northwest end of Montserrat"
+-
+  xmlid: "bq"
+  name: "Navassa Island"
+  fieldid: 4
+  value: "18 25 N, 75 02 W"
+-
+  xmlid: "nu"
+  name: "Nicaragua"
+  fieldid: 4
+  value: "13 00 N, 85 00 W"
+-
+  xmlid: "nu"
+  name: "Nicaragua"
+  fieldid: 63
+  value: "<i>name: </i>Managua<br /><i>geographic coordinates: </i>12 09 N, 86 17 W<br /><i>time difference: </i>UTC-6 (1 hour behind Washington, DC during Standard Time)"
+-
+  xmlid: "pm"
+  name: "Panama"
+  fieldid: 4
+  value: "9 00 N, 80 00 W"
+-
+  xmlid: "pm"
+  name: "Panama"
+  fieldid: 63
+  value: "<i>name: </i>Panama City<br /><i>geographic coordinates: </i>8 58 N, 79 32 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)"
+-
+  xmlid: "rq"
+  name: "Puerto Rico"
+  fieldid: 4
+  value: "18 15 N, 66 30 W"
+-
+  xmlid: "rq"
+  name: "Puerto Rico"
+  fieldid: 63
+  value: "<i>name: </i>San Juan<br /><i>geographic coordinates: </i>18 28 N, 66 07 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "tb"
+  name: "Saint Barthelemy"
+  fieldid: 4
+  value: "17 90 N, 62 85 W"
+-
+  xmlid: "tb"
+  name: "Saint Barthelemy"
+  fieldid: 63
+  value: "<i>name: </i>Gustavia<br /><i>geographic coordinates: </i>17 53 N, 62 51 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)"
+-
+  xmlid: "sc"
+  name: "Saint Kitts and Nevis"
+  fieldid: 4
+  value: "17 20 N, 62 45 W"
+-
+  xmlid: "sc"
+  name: "Saint Kitts and Nevis"
+  fieldid: 63
+  value: "<i>name: </i>Basseterre<br /><i>geographic coordinates: </i>17 18 N, 62 43 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "st"
+  name: "Saint Lucia"
+  fieldid: 4
+  value: "13 53 N, 60 58 W"
+-
+  xmlid: "st"
+  name: "Saint Lucia"
+  fieldid: 63
+  value: "<i>name: </i>Castries<br /><i>geographic coordinates: </i>14 01 N, 61 00 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "rn"
+  name: "Saint Martin"
+  fieldid: 4
+  value: "18 05 N, 63 57 W"
+-
+  xmlid: "rn"
+  name: "Saint Martin"
+  fieldid: 63
+  value: "<i>name: </i>Marigot<br /><i>geographical coordinates: </i>18 04 N, 63 05 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "vc"
+  name: "Saint Vincent and the Grenadines"
+  fieldid: 4
+  value: "13 15 N, 61 12 W"
+-
+  xmlid: "vc"
+  name: "Saint Vincent and the Grenadines"
+  fieldid: 63
+  value: "<i>name: </i>Kingstown<br /><i>geographic coordinates: </i>13 09 N, 61 14 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "sk"
+  name: "Sint Maarten"
+  fieldid: 4
+  value: "18 4 N, 63 4 W"
+-
+  xmlid: "sk"
+  name: "Sint Maarten"
+  fieldid: 63
+  value: "<i>name: </i>Philipsburg<br /><i>geographic coordinates: </i>18 1 N, 63 2 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "td"
+  name: "Trinidad and Tobago"
+  fieldid: 4
+  value: "11 00 N, 61 00 W"
+-
+  xmlid: "td"
+  name: "Trinidad and Tobago"
+  fieldid: 63
+  value: "<i>name: </i>Port of Spain<br /><i>geographic coordinates: </i>10 39 N, 61 31 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "tk"
+  name: "Turks and Caicos Islands"
+  fieldid: 4
+  value: "21 45 N, 71 35 W"
+-
+  xmlid: "tk"
+  name: "Turks and Caicos Islands"
+  fieldid: 63
+  value: "<i>name: </i>Grand Turk (Cockburn Town)<br /><i>geographic coordinates: </i>21 28 N, 71 08 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins second Sunday in March; ends first Sunday in November"
+-
+  xmlid: "vq"
+  name: "Virgin Islands"
+  fieldid: 4
+  value: "18 20 N, 64 50 W"
+-
+  xmlid: "vq"
+  name: "Virgin Islands"
+  fieldid: 63
+  value: "<i>name: </i>Charlotte Amalie<br /><i>geographic coordinates: </i>18 21 N, 64 56 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "kz"
+  name: "Kazakhstan"
+  fieldid: 4
+  value: "48 00 N, 68 00 E"
+-
+  xmlid: "kz"
+  name: "Kazakhstan"
+  fieldid: 63
+  value: "<i>name: </i>Astana<br /><i>geographic coordinates: </i>51 10 N, 71 25 E<br /><i>time difference: </i>UTC+6 (11 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>Kazakhstan is divided into two time zones"
+-
+  xmlid: "kg"
+  name: "Kyrgyzstan"
+  fieldid: 4
+  value: "41 00 N, 75 00 E"
+-
+  xmlid: "kg"
+  name: "Kyrgyzstan"
+  fieldid: 63
+  value: "<i>name: </i>Bishkek<br /><i>geographic coordinates: </i>42 52 N, 74 36 E<br /><i>time difference: </i>UTC+6 (11 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "rs"
+  name: "Russia"
+  fieldid: 4
+  value: "60 00 N, 100 00 E"
+-
+  xmlid: "rs"
+  name: "Russia"
+  fieldid: 63
+  value: "<i>name: </i>Moscow<br /><i>geographic coordinates: </i>55 45 N, 37 35 E<br /><i>time difference: </i>UTC+4 (9 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr; note - Russia has announced that it will remain on daylight saving time permanently, which began on 27 March 2011<br /><i><b>note:</b> </i>Russia is divided into 9 time zones"
+-
+  xmlid: "ti"
+  name: "Tajikistan"
+  fieldid: 4
+  value: "39 00 N, 71 00 E"
+-
+  xmlid: "ti"
+  name: "Tajikistan"
+  fieldid: 63
+  value: "<i>name: </i>Dushanbe<br /><i>geographic coordinates: </i>38 35 N, 68 48 E<br /><i>time difference: </i>UTC+5 (10 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "tx"
+  name: "Turkmenistan"
+  fieldid: 4
+  value: "40 00 N, 60 00 E"
+-
+  xmlid: "tx"
+  name: "Turkmenistan"
+  fieldid: 63
+  value: "<i>name: </i>Ashgabat (Ashkhabad)<br /><i>geographic coordinates: </i>37 57 N, 58 23 E<br /><i>time difference: </i>UTC+5 (10 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "uz"
+  name: "Uzbekistan"
+  fieldid: 4
+  value: "41 00 N, 64 00 E"
+-
+  xmlid: "uz"
+  name: "Uzbekistan"
+  fieldid: 63
+  value: "<i>name: </i>Tashkent (Toshkent)<br /><i>geographic coordinates: </i>41 20 N, 69 18 E<br /><i>time difference: </i>UTC+5 (10 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "bx"
+  name: "Brunei"
+  fieldid: 4
+  value: "4 30 N, 114 40 E"
+-
+  xmlid: "bx"
+  name: "Brunei"
+  fieldid: 63
+  value: "<i>name: </i>Bandar Seri Begawan<br /><i>geographic coordinates: </i>4 53 N, 114 56 E<br /><i>time difference: </i>UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "bm"
+  name: "Burma"
+  fieldid: 4
+  value: "22 00 N, 98 00 E"
+-
+  xmlid: "bm"
+  name: "Burma"
+  fieldid: 63
+  value: "<i>name: </i>Rangoon (Yangon)<br /><i>geographic coordinates: </i>16 48 N, 96 09 E<br /><i>time difference: </i>UTC+6.5 (11.5 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>Nay Pyi Taw is the administrative capital"
+-
+  xmlid: "cb"
+  name: "Cambodia"
+  fieldid: 4
+  value: "13 00 N, 105 00 E"
+-
+  xmlid: "cb"
+  name: "Cambodia"
+  fieldid: 63
+  value: "<i>name: </i>Phnom Penh<br /><i>geographic coordinates: </i>11 33 N, 104 55 E<br /><i>time difference: </i>UTC+7 (12 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ch"
+  name: "China"
+  fieldid: 4
+  value: "35 00 N, 105 00 E"
+-
+  xmlid: "ch"
+  name: "China"
+  fieldid: 63
+  value: "<i>name: </i>Beijing<br /><i>geographic coordinates: </i>39 55 N, 116 23 E<br /><i>time difference: </i>UTC+8 (13 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>despite its size, all of China falls within one time zone; many people in Xinjiang Province observe an unofficial &quot;Xinjiang timezone&quot; of UTC+6, two hours behind Beijing"
+-
+  xmlid: "hk"
+  name: "Hong Kong"
+  fieldid: 4
+  value: "22 15 N, 114 10 E"
+-
+  xmlid: "id"
+  name: "Indonesia"
+  fieldid: 4
+  value: "5 00 S, 120 00 E"
+-
+  xmlid: "id"
+  name: "Indonesia"
+  fieldid: 63
+  value: "<i>name: </i>Jakarta<br /><i>geographic coordinates: </i>6 10 S, 106 49 E<br /><i>time difference: </i>UTC+7 (12 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>Indonesia is divided into three time zones"
+-
+  xmlid: "ja"
+  name: "Japan"
+  fieldid: 4
+  value: "36 00 N, 138 00 E"
+-
+  xmlid: "ja"
+  name: "Japan"
+  fieldid: 63
+  value: "<i>name: </i>Tokyo<br /><i>geographic coordinates: </i>35 41 N, 139 45 E<br /><i>time difference: </i>UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "kn"
+  name: "Korea, North"
+  fieldid: 4
+  value: "40 00 N, 127 00 E"
+-
+  xmlid: "kn"
+  name: "Korea, North"
+  fieldid: 63
+  value: "<i>name: </i>Pyongyang<br /><i>geographic coordinates: </i>39 01 N, 125 45 E<br /><i>time difference: </i>UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ks"
+  name: "Korea, South"
+  fieldid: 4
+  value: "37 00 N, 127 30 E"
+-
+  xmlid: "ks"
+  name: "Korea, South"
+  fieldid: 63
+  value: "<i>name: </i>Seoul<br /><i>geographic coordinates: </i>37 33 N, 126 59 E<br /><i>time difference: </i>UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "la"
+  name: "Laos"
+  fieldid: 4
+  value: "18 00 N, 105 00 E"
+-
+  xmlid: "la"
+  name: "Laos"
+  fieldid: 63
+  value: "<i>name: </i>Vientiane (Viangchan)<br /><i>geographic coordinates: </i>17 58 N, 102 36 E<br /><i>time difference: </i>UTC+7 (12 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "mc"
+  name: "Macau"
+  fieldid: 4
+  value: "22 10 N, 113 33 E"
+-
+  xmlid: "my"
+  name: "Malaysia"
+  fieldid: 4
+  value: "2 30 N, 112 30 E"
+-
+  xmlid: "my"
+  name: "Malaysia"
+  fieldid: 63
+  value: "<i>name: </i>Kuala Lumpur<br /><i>geographic coordinates: </i>3 10 N, 101 42 E<br /><i>time difference: </i>UTC+8 (13 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>Putrajaya is referred to as administrative center not capital; Parliament meets in Kuala Lumpur"
+-
+  xmlid: "mg"
+  name: "Mongolia"
+  fieldid: 4
+  value: "46 00 N, 105 00 E"
+-
+  xmlid: "mg"
+  name: "Mongolia"
+  fieldid: 63
+  value: "<i>name: </i>Ulaanbaatar<br /><i>geographic coordinates: </i>47 55 N, 106 55 E<br /><i>time difference: </i>UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "pp"
+  name: "Papua New Guinea"
+  fieldid: 4
+  value: "6 00 S, 147 00 E"
+-
+  xmlid: "pp"
+  name: "Papua New Guinea"
+  fieldid: 63
+  value: "<i>name: </i>Port Moresby<br /><i>geographic coordinates: </i>9 30 S, 147 10 E<br /><i>time difference: </i>UTC+10 (15 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "pf"
+  name: "Paracel Islands"
+  fieldid: 4
+  value: "16 30 N, 112 00 E"
+-
+  xmlid: "rp"
+  name: "Philippines"
+  fieldid: 4
+  value: "13 00 N, 122 00 E"
+-
+  xmlid: "rp"
+  name: "Philippines"
+  fieldid: 63
+  value: "<i>name: </i>Manila<br /><i>geographic coordinates: </i>14 35 N, 121 00 E<br /><i>time difference: </i>UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "sn"
+  name: "Singapore"
+  fieldid: 4
+  value: "1 22 N, 103 48 E"
+-
+  xmlid: "sn"
+  name: "Singapore"
+  fieldid: 63
+  value: "<i>name: </i>Singapore<br /><i>geographic coordinates: </i>1 17 N, 103 51 E<br /><i>time difference: </i>UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "pg"
+  name: "Spratly Islands"
+  fieldid: 4
+  value: "8 38 N, 111 55 E"
+-
+  xmlid: "tw"
+  name: "Taiwan"
+  fieldid: 4
+  value: "23 30 N, 121 00 E"
+-
+  xmlid: "tw"
+  name: "Taiwan"
+  fieldid: 63
+  value: "<i>name: </i>Taipei<br /><i>geographic coordinates: </i>25 03 N, 121 30 E<br /><i>time difference: </i>UTC+8 (13 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "th"
+  name: "Thailand"
+  fieldid: 4
+  value: "15 00 N, 100 00 E"
+-
+  xmlid: "th"
+  name: "Thailand"
+  fieldid: 63
+  value: "<i>name: </i>Bangkok<br /><i>geographic coordinates: </i>13 45 N, 100 31 E<br /><i>time difference: </i>UTC+7 (12 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "tt"
+  name: "Timor-Leste"
+  fieldid: 4
+  value: "8 50 S, 125 55 E"
+-
+  xmlid: "tt"
+  name: "Timor-Leste"
+  fieldid: 63
+  value: "<i>name: </i>Dili<br /><i>geographic coordinates: </i>8 35 S, 125 36 E<br /><i>time difference: </i>UTC+9 (14 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "vm"
+  name: "Vietnam"
+  fieldid: 4
+  value: "16 10 N, 107 50 E"
+-
+  xmlid: "vm"
+  name: "Vietnam"
+  fieldid: 63
+  value: "<i>name: </i>Hanoi (Ha Noi)<br /><i>geographic coordinates: </i>21 02 N, 105 51 E<br /><i>time difference: </i>UTC+7 (12 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ax"
+  name: "Akrotiri"
+  fieldid: 4
+  value: "34 37 N, 32 58 E"
+-
+  xmlid: "ax"
+  name: "Akrotiri"
+  fieldid: 63
+  value: "<i>name: </i>Episkopi Cantonment (base administrative center for Akrotiri and Dhekelia)<br /><i>geographic coordinates: </i>34 40 N, 32 51 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "al"
+  name: "Albania"
+  fieldid: 4
+  value: "41 00 N, 20 00 E"
+-
+  xmlid: "al"
+  name: "Albania"
+  fieldid: 63
+  value: "<i>name: </i>Tirana (Tirane)<br /><i>geographic coordinates: </i>41 19 N, 19 49 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "an"
+  name: "Andorra"
+  fieldid: 4
+  value: "42 30 N, 1 30 E"
+-
+  xmlid: "an"
+  name: "Andorra"
+  fieldid: 63
+  value: "<i>name: </i>Andorra la Vella<br /><i>geographic coordinates: </i>42 30 N, 1 31 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "au"
+  name: "Austria"
+  fieldid: 4
+  value: "47 20 N, 13 20 E"
+-
+  xmlid: "au"
+  name: "Austria"
+  fieldid: 63
+  value: "<i>name: </i>Vienna<br /><i>geographic coordinates: </i>48 12 N, 16 22 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "bo"
+  name: "Belarus"
+  fieldid: 4
+  value: "53 00 N, 28 00 E"
+-
+  xmlid: "bo"
+  name: "Belarus"
+  fieldid: 63
+  value: "<i>name: </i>Minsk<br /><i>geographic coordinates: </i>53 54 N, 27 34 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March and will continue throughout 2011"
+-
+  xmlid: "be"
+  name: "Belgium"
+  fieldid: 4
+  value: "50 50 N, 4 00 E"
+-
+  xmlid: "be"
+  name: "Belgium"
+  fieldid: 63
+  value: "<i>name: </i>Brussels<br /><i>geographic coordinates: </i>50 50 N, 4 20 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "bk"
+  name: "Bosnia and Herzegovina"
+  fieldid: 4
+  value: "44 00 N, 18 00 E"
+-
+  xmlid: "bk"
+  name: "Bosnia and Herzegovina"
+  fieldid: 63
+  value: "<i>name: </i>Sarajevo<br /><i>geographic coordinates: </i>43 52 N, 18 25 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "bu"
+  name: "Bulgaria"
+  fieldid: 4
+  value: "43 00 N, 25 00 E"
+-
+  xmlid: "bu"
+  name: "Bulgaria"
+  fieldid: 63
+  value: "<i>name: </i>Sofia<br /><i>geographic coordinates: </i>42 41 N, 23 19 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "hr"
+  name: "Croatia"
+  fieldid: 4
+  value: "45 10 N, 15 30 E"
+-
+  xmlid: "hr"
+  name: "Croatia"
+  fieldid: 63
+  value: "<i>name: </i>Zagreb<br /><i>geographic coordinates: </i>45 48 N, 16 00 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "cy"
+  name: "Cyprus"
+  fieldid: 4
+  value: "35 00 N, 33 00 E"
+-
+  xmlid: "cy"
+  name: "Cyprus"
+  fieldid: 63
+  value: "<i>name: </i>Nicosia (Lefkosia/Lefkosa)<br /><i>geographic coordinates: </i>35 10 N, 33 22 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "ez"
+  name: "Czech Republic"
+  fieldid: 4
+  value: "49 45 N, 15 30 E"
+-
+  xmlid: "ez"
+  name: "Czech Republic"
+  fieldid: 63
+  value: "<i>name: </i>Prague<br /><i>geographic coordinates: </i>50 05 N, 14 28 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "da"
+  name: "Denmark"
+  fieldid: 4
+  value: "56 00 N, 10 00 E"
+-
+  xmlid: "da"
+  name: "Denmark"
+  fieldid: 63
+  value: "<i>name: </i>Copenhagen<br /><i>geographic coordinates: </i>55 40 N, 12 35 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October<br /><i><b>note:</b> </i>applies to continental Denmark only, not to its North Atlantic components"
+-
+  xmlid: "dx"
+  name: "Dhekelia"
+  fieldid: 4
+  value: "34 59 N, 33 45 E"
+-
+  xmlid: "dx"
+  name: "Dhekelia"
+  fieldid: 63
+  value: "<i>name: </i>Episkopi Cantonment (base administrative center for Akrotiri and Dhekelia); located in Akrotiri<br /><i>geographic coordinates: </i>34 40 N, 32 51 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "en"
+  name: "Estonia"
+  fieldid: 4
+  value: "59 00 N, 26 00 E"
+-
+  xmlid: "en"
+  name: "Estonia"
+  fieldid: 63
+  value: "<i>name: </i>Tallinn<br /><i>geographic coordinates: </i>59 26 N, 24 43 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "ee"
+  name: "European Union"
+  fieldid: 63
+  value: "<i>name: </i>Brussels (Belgium), Strasbourg (France), Luxembourg<br /><i>geographic coordinates: </i>(Brussels) 50 50 N, 4 20 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October<br /><i><b>note:</b> </i>the Council of the European Union meets in Brussels, Belgium; the European Parliament meets in Brussels and Strasbourg, France; the Court of Justice of the European Union meets in Luxembourg"
+-
+  xmlid: "fo"
+  name: "Faroe Islands"
+  fieldid: 4
+  value: "62 00 N, 7 00 W"
+-
+  xmlid: "fo"
+  name: "Faroe Islands"
+  fieldid: 63
+  value: "<i>name: </i>Torshavn<br /><i>geographic coordinates: </i>62 01 N, 6 46 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "fi"
+  name: "Finland"
+  fieldid: 4
+  value: "64 00 N, 26 00 E"
+-
+  xmlid: "fi"
+  name: "Finland"
+  fieldid: 63
+  value: "<i>name: </i>Helsinki<br /><i>geographic coordinates: </i>60 10 N, 24 56 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "fr"
+  name: "France"
+  fieldid: 4
+  value: "<i>metropolitan France: </i>46 00 N, 2 00 E<br /><i>French Guiana: </i>4 00 N, 53 00 W<br /><i>Guadeloupe: </i>16 15 N, 61 35 W<br /><i>Martinique: </i>14 40 N, 61 00 W<br /><i>Mayotte: </i>12 50 S, 45 10 E<br /><i>Reunion: </i>21 06 S, 55 36 E"
+-
+  xmlid: "fr"
+  name: "France"
+  fieldid: 63
+  value: "<i>name: </i>Paris<br /><i>geographic coordinates: </i>48 52 N, 2 20 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October<br /><i><b>note:</b> </i>applies to metropolitan France only, not to its overseas departments, collectivities, or territories"
+-
+  xmlid: "gm"
+  name: "Germany"
+  fieldid: 4
+  value: "51 00 N, 9 00 E"
+-
+  xmlid: "gm"
+  name: "Germany"
+  fieldid: 63
+  value: "<i>name: </i>Berlin<br /><i>geographic coordinates: </i>52 31 N, 13 24 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "gi"
+  name: "Gibraltar"
+  fieldid: 4
+  value: "36 08 N, 5 21 W"
+-
+  xmlid: "gi"
+  name: "Gibraltar"
+  fieldid: 63
+  value: "<i>name: </i>Gibraltar<br /><i>geographic coordinates: </i>36 08 N, 5 21 W<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "gr"
+  name: "Greece"
+  fieldid: 4
+  value: "39 00 N, 22 00 E"
+-
+  xmlid: "gr"
+  name: "Greece"
+  fieldid: 63
+  value: "<i>name: </i>Athens<br /><i>geographic coordinates: </i>37 59 N, 23 44 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "gk"
+  name: "Guernsey"
+  fieldid: 4
+  value: "49 28 N, 2 35 W"
+-
+  xmlid: "gk"
+  name: "Guernsey"
+  fieldid: 63
+  value: "<i>name: </i>Saint Peter Port<br /><i>geographic coordinates: </i>49 27 N, 2 32 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "vt"
+  name: "Holy See (Vatican City)"
+  fieldid: 4
+  value: "41 54 N, 12 27 E"
+-
+  xmlid: "vt"
+  name: "Holy See (Vatican City)"
+  fieldid: 63
+  value: "<i>name: </i>Vatican City<br /><i>geographic coordinates: </i>41 54 N, 12 27 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "hu"
+  name: "Hungary"
+  fieldid: 4
+  value: "47 00 N, 20 00 E"
+-
+  xmlid: "hu"
+  name: "Hungary"
+  fieldid: 63
+  value: "<i>name: </i>Budapest<br /><i>geographic coordinates: </i>47 30 N, 19 05 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "ic"
+  name: "Iceland"
+  fieldid: 4
+  value: "65 00 N, 18 00 W"
+-
+  xmlid: "ic"
+  name: "Iceland"
+  fieldid: 63
+  value: "<i>name: </i>Reykjavik<br /><i>geographic coordinates: </i>64 09 N, 21 57 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ei"
+  name: "Ireland"
+  fieldid: 4
+  value: "53 00 N, 8 00 W"
+-
+  xmlid: "ei"
+  name: "Ireland"
+  fieldid: 63
+  value: "<i>name: </i>Dublin<br /><i>geographic coordinates: </i>53 19 N, 6 14 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "im"
+  name: "Isle of Man"
+  fieldid: 4
+  value: "54 15 N, 4 30 W"
+-
+  xmlid: "im"
+  name: "Isle of Man"
+  fieldid: 63
+  value: "<i>name: </i>Douglas<br /><i>geographic coordinates: </i>54 09 N, 4 29 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "it"
+  name: "Italy"
+  fieldid: 4
+  value: "42 50 N, 12 50 E"
+-
+  xmlid: "it"
+  name: "Italy"
+  fieldid: 63
+  value: "<i>name: </i>Rome<br /><i>geographic coordinates: </i>41 54 N, 12 29 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "jn"
+  name: "Jan Mayen"
+  fieldid: 4
+  value: "71 00 N, 8 00 W"
+-
+  xmlid: "je"
+  name: "Jersey"
+  fieldid: 4
+  value: "49 15 N, 2 10 W"
+-
+  xmlid: "je"
+  name: "Jersey"
+  fieldid: 63
+  value: "<i>name: </i>Saint Helier<br /><i>geographic coordinates: </i>49 11 N, 2 06 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "kv"
+  name: "Kosovo"
+  fieldid: 4
+  value: "42 35 N, 21 00 E"
+-
+  xmlid: "kv"
+  name: "Kosovo"
+  fieldid: 63
+  value: "<i>name: </i>Pristina (Prishtine, Prishtina)<br /><i>geographic coordinates: </i>42 40 N, 21 10 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "lg"
+  name: "Latvia"
+  fieldid: 4
+  value: "57 00 N, 25 00 E"
+-
+  xmlid: "lg"
+  name: "Latvia"
+  fieldid: 63
+  value: "<i>name: </i>Riga<br /><i>geographic coordinates: </i>56 57 N, 24 06 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "ls"
+  name: "Liechtenstein"
+  fieldid: 4
+  value: "47 16 N, 9 32 E"
+-
+  xmlid: "ls"
+  name: "Liechtenstein"
+  fieldid: 63
+  value: "<i>name: </i>Vaduz<br /><i>geographic coordinates: </i>47 08 N, 9 31 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "lh"
+  name: "Lithuania"
+  fieldid: 4
+  value: "56 00 N, 24 00 E"
+-
+  xmlid: "lh"
+  name: "Lithuania"
+  fieldid: 63
+  value: "<i>name: </i>Vilnius<br /><i>geographic coordinates: </i>54 41 N, 25 19 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "lu"
+  name: "Luxembourg"
+  fieldid: 4
+  value: "49 45 N, 6 10 E"
+-
+  xmlid: "lu"
+  name: "Luxembourg"
+  fieldid: 63
+  value: "<i>name: </i>Luxembourg<br /><i>geographic coordinates: </i>49 36 N, 6 07 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "mk"
+  name: "Macedonia"
+  fieldid: 4
+  value: "41 50 N, 22 00 E"
+-
+  xmlid: "mk"
+  name: "Macedonia"
+  fieldid: 63
+  value: "<i>name: </i>Skopje<br /><i>geographic coordinates: </i>42 00 N, 21 26 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "mt"
+  name: "Malta"
+  fieldid: 4
+  value: "35 50 N, 14 35 E"
+-
+  xmlid: "mt"
+  name: "Malta"
+  fieldid: 63
+  value: "<i>name: </i>Valletta<br /><i>geographic coordinates: </i>35 53 N, 14 30 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "md"
+  name: "Moldova"
+  fieldid: 4
+  value: "47 00 N, 29 00 E"
+-
+  xmlid: "md"
+  name: "Moldova"
+  fieldid: 63
+  value: "<i>name: </i>Chisinau in Romanian (Kishinev in Russian)<br /><i><b>note:</b> </i>pronounced KEE-shee-now (KIH-shi-nyev)<br /><i>geographic coordinates: </i>47 00 N, 28 51 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "mn"
+  name: "Monaco"
+  fieldid: 4
+  value: "43 44 N, 7 24 E"
+-
+  xmlid: "mn"
+  name: "Monaco"
+  fieldid: 63
+  value: "<i>name: </i>Monaco<br /><i>geographic coordinates: </i>43 44 N, 7 25 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "mj"
+  name: "Montenegro"
+  fieldid: 4
+  value: "42 30 N, 19 18 E"
+-
+  xmlid: "mj"
+  name: "Montenegro"
+  fieldid: 63
+  value: "<i>name: </i>Podgorica; note - the Old Royal Capital is Cetinje mentioned in the constitution<br /><i>geographic coordinates: </i>42 26 N, 19 16 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1 hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "nl"
+  name: "Netherlands"
+  fieldid: 4
+  value: "52 30 N, 5 45 E"
+-
+  xmlid: "nl"
+  name: "Netherlands"
+  fieldid: 63
+  value: "<i>name: </i>Amsterdam<br /><i>geographic coordinates: </i>52 23 N, 4 54 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October<br /><i><b>note:</b> </i>The Hague is the seat of government; time descriptions apply to the continental Netherlands only, not to the Caribbean components"
+-
+  xmlid: "no"
+  name: "Norway"
+  fieldid: 4
+  value: "62 00 N, 10 00 E"
+-
+  xmlid: "no"
+  name: "Norway"
+  fieldid: 63
+  value: "<i>name: </i>Oslo<br /><i>geographic coordinates: </i>59 55 N, 10 45 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "pl"
+  name: "Poland"
+  fieldid: 4
+  value: "52 00 N, 20 00 E"
+-
+  xmlid: "pl"
+  name: "Poland"
+  fieldid: 63
+  value: "<i>name: </i>Warsaw<br /><i>geographic coordinates: </i>52 15 N, 21 00 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "po"
+  name: "Portugal"
+  fieldid: 4
+  value: "39 30 N, 8 00 W"
+-
+  xmlid: "po"
+  name: "Portugal"
+  fieldid: 63
+  value: "<i>name: </i>Lisbon<br /><i>geographic coordinates: </i>38 43 N, 9 08 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "ro"
+  name: "Romania"
+  fieldid: 4
+  value: "46 00 N, 25 00 E"
+-
+  xmlid: "ro"
+  name: "Romania"
+  fieldid: 63
+  value: "<i>name: </i>Bucharest<br /><i>geographic coordinates: </i>44 26 N, 26 06 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "sm"
+  name: "San Marino"
+  fieldid: 4
+  value: "43 46 N, 12 25 E"
+-
+  xmlid: "sm"
+  name: "San Marino"
+  fieldid: 63
+  value: "<i>name: </i>San Marino<br /><i>geographic coordinates: </i>43 56 N, 12 25 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "ri"
+  name: "Serbia"
+  fieldid: 4
+  value: "44 00 N, 21 00 E"
+-
+  xmlid: "ri"
+  name: "Serbia"
+  fieldid: 63
+  value: "<i>name: </i>Belgrade (Beograd)<br /><i>geographic coordinates: </i>44 50 N, 20 30 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "lo"
+  name: "Slovakia"
+  fieldid: 4
+  value: "48 40 N, 19 30 E"
+-
+  xmlid: "lo"
+  name: "Slovakia"
+  fieldid: 63
+  value: "<i>name: </i>Bratislava<br /><i>geographic coordinates: </i>48 09 N, 17 07 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "si"
+  name: "Slovenia"
+  fieldid: 4
+  value: "46 07 N, 14 49 E"
+-
+  xmlid: "si"
+  name: "Slovenia"
+  fieldid: 63
+  value: "<i>name: </i>Ljubljana<br /><i>geographic coordinates: </i>46 03 N, 14 31 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "sp"
+  name: "Spain"
+  fieldid: 4
+  value: "40 00 N, 4 00 W"
+-
+  xmlid: "sp"
+  name: "Spain"
+  fieldid: 63
+  value: "<i>name: </i>Madrid<br /><i>geographic coordinates: </i>40 24 N, 3 41 W<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October<br /><i><b>note:</b> </i>Spain is divided into two time zones including the Canary Islands"
+-
+  xmlid: "sv"
+  name: "Svalbard"
+  fieldid: 4
+  value: "78 00 N, 20 00 E"
+-
+  xmlid: "sv"
+  name: "Svalbard"
+  fieldid: 63
+  value: "<i>name: </i>Longyearbyen<br /><i>geographic coordinates: </i>78 13 N, 15 33 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "sw"
+  name: "Sweden"
+  fieldid: 4
+  value: "62 00 N, 15 00 E"
+-
+  xmlid: "sw"
+  name: "Sweden"
+  fieldid: 63
+  value: "<i>name: </i>Stockholm<br /><i>geographic coordinates: </i>59 20 N, 18 03 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "sz"
+  name: "Switzerland"
+  fieldid: 4
+  value: "47 00 N, 8 00 E"
+-
+  xmlid: "sz"
+  name: "Switzerland"
+  fieldid: 63
+  value: "<i>name: </i>Bern<br /><i>geographic coordinates: </i>46 57 N, 7 26 E<br /><i>time difference: </i>UTC+1 (6 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "up"
+  name: "Ukraine"
+  fieldid: 4
+  value: "49 00 N, 32 00 E"
+-
+  xmlid: "up"
+  name: "Ukraine"
+  fieldid: 63
+  value: "<i>name: </i>Kyiv (Kiev)<br /><i><b>note:</b> </i>pronounced KAY-yiv<br /><i>geographic coordinates: </i>50 26 N, 30 31 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "uk"
+  name: "United Kingdom"
+  fieldid: 4
+  value: "54 00 N, 2 00 W"
+-
+  xmlid: "uk"
+  name: "United Kingdom"
+  fieldid: 63
+  value: "<i>name: </i>London<br /><i>geographic coordinates: </i>51 30 N, 0 10 W<br /><i>time difference: </i>UTC 0 (5 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October<br /><i><b>note:</b> </i>applies to the United Kingdom proper, not to its overseas dependencies or territories"
+-
+  xmlid: "am"
+  name: "Armenia"
+  fieldid: 4
+  value: "40 00 N, 45 00 E"
+-
+  xmlid: "am"
+  name: "Armenia"
+  fieldid: 63
+  value: "<i>name: </i>Yerevan<br /><i>geographic coordinates: </i>40 10 N, 44 30 E<br /><i>time difference: </i>UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "aj"
+  name: "Azerbaijan"
+  fieldid: 4
+  value: "40 30 N, 47 30 E"
+-
+  xmlid: "aj"
+  name: "Azerbaijan"
+  fieldid: 63
+  value: "<i>name: </i>Baku (Baki, Baky)<br /><i>geographic coordinates: </i>40 23 N, 49 52 E<br /><i>time difference: </i>UTC+4 (9 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "ba"
+  name: "Bahrain"
+  fieldid: 4
+  value: "26 00 N, 50 33 E"
+-
+  xmlid: "ba"
+  name: "Bahrain"
+  fieldid: 63
+  value: "<i>name: </i>Manama<br /><i>geographic coordinates: </i>26 14 N, 50 34 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "gz"
+  name: "Gaza Strip"
+  fieldid: 4
+  value: "31 25 N, 34 20 E"
+-
+  xmlid: "gg"
+  name: "Georgia"
+  fieldid: 4
+  value: "42 00 N, 43 30 E"
+-
+  xmlid: "gg"
+  name: "Georgia"
+  fieldid: 63
+  value: "<i>name: </i>T'bilisi<br /><i>geographic coordinates: </i>41 43 N, 44 47 E<br /><i>time difference: </i>UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ir"
+  name: "Iran"
+  fieldid: 4
+  value: "32 00 N, 53 00 E"
+-
+  xmlid: "ir"
+  name: "Iran"
+  fieldid: 63
+  value: "<i>name: </i>Tehran<br /><i>geographic coordinates: </i>35 40 N, 51 25 E<br /><i>time difference: </i>UTC+3.5 (8.5 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins fourth Tuesday in March; ends fourth Thursday in September"
+-
+  xmlid: "iz"
+  name: "Iraq"
+  fieldid: 4
+  value: "33 00 N, 44 00 E"
+-
+  xmlid: "iz"
+  name: "Iraq"
+  fieldid: 63
+  value: "<i>name: </i>Baghdad<br /><i>geographic coordinates: </i>33 20 N, 44 23 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "is"
+  name: "Israel"
+  fieldid: 4
+  value: "31 30 N, 34 45 E"
+-
+  xmlid: "is"
+  name: "Israel"
+  fieldid: 63
+  value: "<i>name: </i>Jerusalem<br /><i>geographic coordinates: </i>31 46 N, 35 14 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins first Friday in April; ends the Sunday between the holidays of Rosh Hashana and Yom Kippur<br /><i><b>note:</b> </i>Israel proclaimed Jerusalem as its capital in 1950, but the US, like all other countries, maintains its Embassy in Tel Aviv"
+-
+  xmlid: "jo"
+  name: "Jordan"
+  fieldid: 4
+  value: "31 00 N, 36 00 E"
+-
+  xmlid: "jo"
+  name: "Jordan"
+  fieldid: 63
+  value: "<i>name: </i>Amman<br /><i>geographic coordinates: </i>31 57 N, 35 56 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins first Friday in April; ends last Friday in October"
+-
+  xmlid: "ku"
+  name: "Kuwait"
+  fieldid: 4
+  value: "29 30 N, 45 45 E"
+-
+  xmlid: "ku"
+  name: "Kuwait"
+  fieldid: 63
+  value: "<i>name: </i>Kuwait City<br /><i>geographic coordinates: </i>29 22 N, 47 58 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "le"
+  name: "Lebanon"
+  fieldid: 4
+  value: "33 50 N, 35 50 E"
+-
+  xmlid: "le"
+  name: "Lebanon"
+  fieldid: 63
+  value: "<i>name: </i>Beirut<br /><i>geographic coordinates: </i>33 52 N, 35 30 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October"
+-
+  xmlid: "mu"
+  name: "Oman"
+  fieldid: 4
+  value: "21 00 N, 57 00 E"
+-
+  xmlid: "mu"
+  name: "Oman"
+  fieldid: 63
+  value: "<i>name: </i>Muscat<br /><i>geographic coordinates: </i>23 37 N, 58 35 E<br /><i>time difference: </i>UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "qa"
+  name: "Qatar"
+  fieldid: 4
+  value: "25 30 N, 51 15 E"
+-
+  xmlid: "qa"
+  name: "Qatar"
+  fieldid: 63
+  value: "<i>name: </i>Doha<br /><i>geographic coordinates: </i>25 17 N, 51 32 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "sa"
+  name: "Saudi Arabia"
+  fieldid: 4
+  value: "25 00 N, 45 00 E"
+-
+  xmlid: "sa"
+  name: "Saudi Arabia"
+  fieldid: 63
+  value: "<i>name: </i>Riyadh<br /><i>geographic coordinates: </i>24 38 N, 46 43 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "sy"
+  name: "Syria"
+  fieldid: 4
+  value: "35 00 N, 38 00 E"
+-
+  xmlid: "sy"
+  name: "Syria"
+  fieldid: 63
+  value: "<i>name: </i>Damascus<br /><i>geographic coordinates: </i>33 30 N, 36 18 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins first Friday in April; ends last Friday in October"
+-
+  xmlid: "tu"
+  name: "Turkey"
+  fieldid: 4
+  value: "39 00 N, 35 00 E"
+-
+  xmlid: "tu"
+  name: "Turkey"
+  fieldid: 63
+  value: "<i>name: </i>Ankara<br /><i>geographic coordinates: </i>39 56 N, 32 52 E<br /><i>time difference: </i>UTC+2 (7 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Monday in March; ends last Sunday in October"
+-
+  xmlid: "ae"
+  name: "United Arab Emirates"
+  fieldid: 4
+  value: "24 00 N, 54 00 E"
+-
+  xmlid: "ae"
+  name: "United Arab Emirates"
+  fieldid: 63
+  value: "<i>name: </i>Abu Dhabi<br /><i>geographic coordinates: </i>24 28 N, 54 22 E<br /><i>time difference: </i>UTC+4 (9 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "we"
+  name: "West Bank"
+  fieldid: 4
+  value: "32 00 N, 35 15 E"
+-
+  xmlid: "ym"
+  name: "Yemen"
+  fieldid: 4
+  value: "15 00 N, 48 00 E"
+-
+  xmlid: "ym"
+  name: "Yemen"
+  fieldid: 63
+  value: "<i>name: </i>Sanaa<br /><i>geographic coordinates: </i>15 21 N, 44 12 E<br /><i>time difference: </i>UTC+3 (8 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "bd"
+  name: "Bermuda"
+  fieldid: 4
+  value: "32 20 N, 64 45 W"
+-
+  xmlid: "bd"
+  name: "Bermuda"
+  fieldid: 63
+  value: "<i>name: </i>Hamilton<br /><i>geographic coordinates: </i>32 17 N, 64 47 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins second Sunday in March; ends first Sunday in November"
+-
+  xmlid: "ca"
+  name: "Canada"
+  fieldid: 4
+  value: "60 00 N, 95 00 W"
+-
+  xmlid: "ca"
+  name: "Canada"
+  fieldid: 63
+  value: "<i>name: </i>Ottawa<br /><i>geographic coordinates: </i>45 25 N, 75 42 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins second Sunday in March; ends first Sunday in November<br /><i><b>note:</b> </i>Canada is divided into six time zones"
+-
+  xmlid: "ip"
+  name: "Clipperton Island"
+  fieldid: 4
+  value: "10 17 N, 109 13 W"
+-
+  xmlid: "gl"
+  name: "Greenland"
+  fieldid: 4
+  value: "72 00 N, 40 00 W"
+-
+  xmlid: "gl"
+  name: "Greenland"
+  fieldid: 63
+  value: "<i>name: </i>Nuuk (Godthab)<br /><i>geographic coordinates: </i>64 11 N, 51 45 W<br /><i>time difference: </i>UTC-3 (2 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins last Sunday in March; ends last Sunday in October<br /><i><b>note:</b> </i>Greenland is divided into four time zones"
+-
+  xmlid: "mx"
+  name: "Mexico"
+  fieldid: 4
+  value: "23 00 N, 102 00 W"
+-
+  xmlid: "mx"
+  name: "Mexico"
+  fieldid: 63
+  value: "<i>name: </i>Mexico City (Distrito Federal)<br /><i>geographic coordinates: </i>19 26 N, 99 08 W<br /><i>time difference: </i>UTC-6 (1 hour behind Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins first Sunday in April; ends last Sunday in October<br /><i><b>note:</b> </i>Mexico is divided into three time zones"
+-
+  xmlid: "sb"
+  name: "Saint Pierre and Miquelon"
+  fieldid: 4
+  value: "46 50 N, 56 20 W"
+-
+  xmlid: "sb"
+  name: "Saint Pierre and Miquelon"
+  fieldid: 63
+  value: "<i>name: </i>Saint-Pierre<br /><i>geographic coordinates: </i>46 46 N, 56 11 W<br /><i>time difference: </i>UTC-3 (2 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins second Sunday in March; ends first Sunday in November"
+-
+  xmlid: "us"
+  name: "United States"
+  fieldid: 4
+  value: "38 00 N, 97 00 W"
+-
+  xmlid: "us"
+  name: "United States"
+  fieldid: 63
+  value: "<i>name: </i>Washington, DC<br /><i>geographic coordinates: </i>38 53 N, 77 02 W<br /><i>time difference: </i>UTC-5 (during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins second Sunday in March; ends first Sunday in November<br /><i><b>note:</b> </i>the 50 United States cover six time zones"
+-
+  xmlid: "ar"
+  name: "Argentina"
+  fieldid: 4
+  value: "34 00 S, 64 00 W"
+-
+  xmlid: "ar"
+  name: "Argentina"
+  fieldid: 63
+  value: "<i>name: </i>Buenos Aires<br /><i>geographic coordinates: </i>34 36 S, 58 40 W<br /><i>time difference: </i>UTC-3 (2 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>none scheduled for 2011"
+-
+  xmlid: "bl"
+  name: "Bolivia"
+  fieldid: 4
+  value: "17 00 S, 65 00 W"
+-
+  xmlid: "bl"
+  name: "Bolivia"
+  fieldid: 63
+  value: "<i>name: </i>La Paz (administrative capital)<br /><i>geographic coordinates: </i>16 30 S, 68 09 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>Sucre (constitutional capital)"
+-
+  xmlid: "br"
+  name: "Brazil"
+  fieldid: 4
+  value: "10 00 S, 55 00 W"
+-
+  xmlid: "br"
+  name: "Brazil"
+  fieldid: 63
+  value: "<i>name: </i>Brasilia<br /><i>geographic coordinates: </i>15 47 S, 47 55 W<br /><i>time difference: </i>UTC-3 (2 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins third Sunday in October; ends last Sunday in February<br /><i><b>note:</b> </i>Brazil is divided into three time zones, including one for the Fernando de Noronha Islands"
+-
+  xmlid: "ci"
+  name: "Chile"
+  fieldid: 4
+  value: "30 00 S, 71 00 W"
+-
+  xmlid: "ci"
+  name: "Chile"
+  fieldid: 63
+  value: "<i>name: </i>Santiago<br /><i>geographic coordinates: </i>33 27 S, 70 40 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins third Sunday in August; ends second Sunday in May; note - the end of DST was delayed until 8 May 2011 due to the ongoing energy crisis<br /><i><b>note:</b> </i>Valparaiso is the seat of the national legislature"
+-
+  xmlid: "co"
+  name: "Colombia"
+  fieldid: 4
+  value: "4 00 N, 72 00 W"
+-
+  xmlid: "co"
+  name: "Colombia"
+  fieldid: 63
+  value: "<i>name: </i>Bogota<br /><i>geographic coordinates: </i>4 36 N, 74 05 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)"
+-
+  xmlid: "ec"
+  name: "Ecuador"
+  fieldid: 4
+  value: "2 00 S, 77 30 W"
+-
+  xmlid: "ec"
+  name: "Ecuador"
+  fieldid: 63
+  value: "<i>name: </i>Quito<br /><i>geographic coordinates: </i>0 13 S, 78 30 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)"
+-
+  xmlid: "fk"
+  name: "Falkland Islands (Islas Malvinas)"
+  fieldid: 4
+  value: "51 45 S, 59 00 W"
+-
+  xmlid: "fk"
+  name: "Falkland Islands (Islas Malvinas)"
+  fieldid: 63
+  value: "<i>name: </i>Stanley<br /><i>geographic coordinates: </i>51 42 S, 57 51 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins first Sunday in September; ends third Sunday in April; note - DST will be observed throughout 2011 on a trial basis"
+-
+  xmlid: "gy"
+  name: "Guyana"
+  fieldid: 4
+  value: "5 00 N, 59 00 W"
+-
+  xmlid: "gy"
+  name: "Guyana"
+  fieldid: 63
+  value: "<i>name: </i>Georgetown<br /><i>geographic coordinates: </i>6 48 N, 58 10 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "pa"
+  name: "Paraguay"
+  fieldid: 4
+  value: "23 00 S, 58 00 W"
+-
+  xmlid: "pa"
+  name: "Paraguay"
+  fieldid: 63
+  value: "<i>name: </i>Asuncion<br /><i>geographic coordinates: </i>25 16 S, 57 40 W<br /><i>time difference: </i>UTC-4 (1 hour ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins first Sunday in October; ends second Sunday in April"
+-
+  xmlid: "pe"
+  name: "Peru"
+  fieldid: 4
+  value: "10 00 S, 76 00 W"
+-
+  xmlid: "pe"
+  name: "Peru"
+  fieldid: 63
+  value: "<i>name: </i>Lima<br /><i>geographic coordinates: </i>12 03 S, 77 03 W<br /><i>time difference: </i>UTC-5 (same time as Washington, DC during Standard Time)"
+-
+  xmlid: "sx"
+  name: "South Georgia and South Sandwich Islands"
+  fieldid: 4
+  value: "54 30 S, 37 00 W"
+-
+  xmlid: "ns"
+  name: "Suriname"
+  fieldid: 4
+  value: "4 00 N, 56 00 W"
+-
+  xmlid: "ns"
+  name: "Suriname"
+  fieldid: 63
+  value: "<i>name: </i>Paramaribo<br /><i>geographic coordinates: </i>5 50 N, 55 10 W<br /><i>time difference: </i>UTC-3 (2 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "uy"
+  name: "Uruguay"
+  fieldid: 4
+  value: "33 00 S, 56 00 W"
+-
+  xmlid: "uy"
+  name: "Uruguay"
+  fieldid: 63
+  value: "<i>name: </i>Montevideo<br /><i>geographic coordinates: </i>34 53 S, 56 11 W<br /><i>time difference: </i>UTC-3 (2 hours ahead of Washington, DC during Standard Time)<br /><i>daylight saving time: </i>+1hr, begins first Sunday in October; ends second Sunday in March"
+-
+  xmlid: "ve"
+  name: "Venezuela"
+  fieldid: 4
+  value: "8 00 N, 66 00 W"
+-
+  xmlid: "ve"
+  name: "Venezuela"
+  fieldid: 63
+  value: "<i>name: </i>Caracas<br /><i>geographic coordinates: </i>10 30 N, 66 56 W<br /><i>time difference: </i>UTC-4.5 (half an hour ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "af"
+  name: "Afghanistan"
+  fieldid: 4
+  value: "33 00 N, 65 00 E"
+-
+  xmlid: "af"
+  name: "Afghanistan"
+  fieldid: 63
+  value: "<i>name: </i>Kabul<br /><i>geographic coordinates: </i>34 31 N, 69 11 E<br /><i>time difference: </i>UTC+4.5 (9.5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "bg"
+  name: "Bangladesh"
+  fieldid: 4
+  value: "24 00 N, 90 00 E"
+-
+  xmlid: "bg"
+  name: "Bangladesh"
+  fieldid: 63
+  value: "<i>name: </i>Dhaka<br /><i>geographic coordinates: </i>23 43 N, 90 24 E<br /><i>time difference: </i>UTC+6 (11 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "bt"
+  name: "Bhutan"
+  fieldid: 4
+  value: "27 30 N, 90 30 E"
+-
+  xmlid: "bt"
+  name: "Bhutan"
+  fieldid: 63
+  value: "<i>name: </i>Thimphu<br /><i>geographic coordinates: </i>27 29 N, 89 36 E<br /><i>time difference: </i>UTC+6 (11 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "io"
+  name: "British Indian Ocean Territory"
+  fieldid: 4
+  value: "6 00 S, 71 30 E; note - Diego Garcia 7 20 S, 72 25 E"
+-
+  xmlid: "in"
+  name: "India"
+  fieldid: 4
+  value: "20 00 N, 77 00 E"
+-
+  xmlid: "in"
+  name: "India"
+  fieldid: 63
+  value: "<i>name: </i>New Delhi<br /><i>geographic coordinates: </i>28 36 N, 77 12 E<br /><i>time difference: </i>UTC+5.5 (10.5 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "mv"
+  name: "Maldives"
+  fieldid: 4
+  value: "3 15 N, 73 00 E"
+-
+  xmlid: "mv"
+  name: "Maldives"
+  fieldid: 63
+  value: "<i>name: </i>Male<br /><i>geographic coordinates: </i>4 10 N, 73 30 E<br /><i>time difference: </i>UTC+5 (10 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "np"
+  name: "Nepal"
+  fieldid: 4
+  value: "28 00 N, 84 00 E"
+-
+  xmlid: "np"
+  name: "Nepal"
+  fieldid: 63
+  value: "<i>name: </i>Kathmandu<br /><i>geographic coordinates: </i>27 43 N, 85 19 E<br /><i>time difference: </i>UTC+5.75 (10.75 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "pk"
+  name: "Pakistan"
+  fieldid: 4
+  value: "30 00 N, 70 00 E"
+-
+  xmlid: "pk"
+  name: "Pakistan"
+  fieldid: 63
+  value: "<i>name: </i>Islamabad<br /><i>geographic coordinates: </i>33 42 N, 73 10 E<br /><i>time difference: </i>UTC+5 (10 hours ahead of Washington, DC during Standard Time)"
+-
+  xmlid: "ce"
+  name: "Sri Lanka"
+  fieldid: 4
+  value: "7 00 N, 81 00 E"
+-
+  xmlid: "ce"
+  name: "Sri Lanka"
+  fieldid: 63
+  value: "<i>name: </i>Colombo<br /><i>geographic coordinates: </i>6 56 N, 79 51 E<br /><i>time difference: </i>UTC+5.5 (10.5 hours ahead of Washington, DC during Standard Time)<br /><i><b>note:</b> </i>Sri Jayewardenepura Kotte (legislative capital)"
+-
+  xmlid: "xq"
+  name: "Arctic Ocean"
+  fieldid: 4
+  value: "90 00 N, 0 00 E"
+-
+  xmlid: "zh"
+  name: "Atlantic Ocean"
+  fieldid: 4
+  value: "0 00 N, 25 00 W"
+-
+  xmlid: "xo"
+  name: "Indian Ocean"
+  fieldid: 4
+  value: "20 00 S, 80 00 E"
+-
+  xmlid: "zn"
+  name: "Pacific Ocean"
+  fieldid: 4
+  value: "0 00 N, 160 00 W"
+-
+  xmlid: "oo"
+  name: "Southern Ocean"
+  fieldid: 4
+  value: "60 00 S, 90 00 E (nominally), but the Southern Ocean has the unique distinction of being a large circumpolar body of water totally encircling the continent of Antarctica; this ring of water lies between 60 degrees south latitude and the coast of Antarctica and encompasses 360 degrees of longitude"
+...

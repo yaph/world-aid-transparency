@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="http://d3js.org/d3.v2.min.js?2.9.6"></script>
+<script src="/capitals.js"></script>
+<style>
+.background {
+fill: none;
+pointer-events: all;
+}
+#countries {
+fill: #ddd;
+stroke: #fff;
+stroke-width: 1px;
+}
+#links circle {
+fill: #666;
+opacity: .8;
+}
+
+circle title {
+font: 13px sans-serif;
+fill:#333;
+}
+
+</style>
+<body>
+<div>
+<button class="btn">Total</button>
+<button class="btn">Per Capita</button>
+<button class="btn">By GDP</button>
+</div>
+<script>
+var width = 720,
+    height = 540,
+    centered,
+    geocountries,
+    proj = d3.geo.equirectangular().scale(1).translate([0, 0]);
+
+var projection = d3.geo.mercator()
+    .scale(width)
+    .translate([0, 0]);
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var svg = d3.select('body').append('svg')
+    .attr('width', width)
+    .attr('height', height);
+
+svg.append('rect')
+    .attr('class', 'background')
+    .attr('width', width)
+    .attr('height', height);
+
+var gcountries = svg.append('g')
+    .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')')
+  .append('g')
+    .attr('id', 'countries');
+
+var glinks = svg.append('g')
+    .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')')
+  .append('g')
+    .attr('id', 'links');
+
+var garcs = svg.append('g')
+  .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')')
+  .attr('id', 'arcs');
+
+var arc = d3.geo.greatArc()
+  .precision(1);
+
+var centroid = function(d) {
+  return path.centroid(d.geometry)
+};
+
+var spain = [-3.43, 40.23];
+var mexico = [-99.8, 19.26];
+
+var zoom = function(g, x, y, k) {
+  g.selectAll('path')
+    .classed('active', centered && function(d) { return d === centered; });
+  g.transition()
+    .duration(1000)
+    .attr('transform', 'scale(' + k + ')translate(' + x + ',' + y + ')')
+    .style('stroke-width', 1.5 / k + 'px');
+};
+
+
+var click = function(d) {
+  var x = 0,
+      y = 0,
+      k = 1;
+  if (d && centered !== d) {
+    var centroid = path.centroid(d);
+    x = -centroid[0];
+    y = -centroid[1];
+    k = 4;
+    centered = d;
+  } else {
+    centered = null;
+  }
+
+  zoom(gcountries, x, y, k);
+  zoom(glinks, x, y, k);
+  zoom(garcs, x, y, k);
+}
+
+d3.json('world-countries.json', function(json) {
+  geocountries = json.features;
+  gcountries.selectAll('path')
+      .data(geocountries)
+    .enter().append('path')
+      .attr('d', path)
+      .on('click', click); // remove zoom because it messes up arcs
+
+  // draw circles for capitals
+  glinks.selectAll('circle')
+      .data(geocountries.filter(function(d){
+        // ignore countries with missing data for now
+        return ('undefined' === typeof capitals[d.id]) ? false : true;
+      }))
+    .enter().append('circle')
+      .attr('cx', function(d) {return projection(capitals[d.id].coords)[0]})
+      .attr('cy', function(d) {return projection(capitals[d.id].coords)[1]})
+      .attr('r', 1)
+      .append('title')
+        .text(function(d) {return capitals[d.id].name + ', ' + d.properties.name});
+
+  var links = [{
+    'source': spain,
+    'target': mexico
+    }, {
+    'source': mexico,
+    'target': spain
+  }];
+
+  garcs.selectAll('path')
+    .data(links)
+  .enter().append('path')
+    .style('stroke-width', 8)
+    .style('stroke', 'orange')
+    .style('fill', 'none')
+    .attr('d', function(d) {return path(arc(d));});
+});
+
+</script>
+<h3>About</h3>
+<p>Include data on how the money is spent, if possible.
+<a href="http://bl.ocks.org/2206590">Source</a>
+</p>
+
+factbook query
+<code>
+SELECT c.xmlid, c.name, v.value FROM  `factbook_countries` AS c
+INNER JOIN `factbook_values` AS v ON v.countryid = c.id
+WHERE v.fieldid = 63;
+</code>
