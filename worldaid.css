@@ -1,20 +1,27 @@
 .background {
-/*fill: none;*/
+fill: none;
 pointer-events: all;
-}
-rect {
-fill: #fff;
 }
 #countries {
 fill: #ddd;
 stroke: #fff;
 stroke-width: 1px;
 }
-#links circle {
+circle {
 fill: #666;
 opacity: .2;
 }
 circle title {
+font: 13px sans-serif;
+fill:#333;
+}
+#legend {
+fill: #fff;
+}
+#legend .heading {
+font: bold 16px sans-serif;
+}
+#legend text {
 font: 13px sans-serif;
 fill:#333;
 }

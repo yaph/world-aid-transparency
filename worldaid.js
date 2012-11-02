@@ -2,24 +2,21 @@
 
 var width = 720,
   height = 540,
+  legendh = 100,
   pathopacity = .5,
+  selected,
   centered,
   geocountries,
   relation, // Population or GDP
   proj = d3.geo.equirectangular().scale(1).translate([0, 0]),
   arc = d3.geo.greatArc().precision(1),
-  minarrowwidth = .3,
   centroid = function(d) {return path.centroid(d.geometry)},
   format = d3.format(',d'),
-  color = d3.scale.category20();
-//  color = function(d) {return '#000'};
-
-var projection = d3.geo.mercator()
-  .scale(width)
-  .translate([0, 0]);
-
-var path = d3.geo.path()
-  .projection(projection);
+  color = d3.scale.category20(),
+  projection = d3.geo.mercator().scale(width).translate([0, 0]),
+  path = d3.geo.path().projection(projection)
+  // unused
+  minarrowwidth = .3;
 
 var tf = function() {
   return 'translate(' + width / 2 + ',' + height / 2 + ')'
@@ -31,7 +28,6 @@ var svg = d3.select('#map').append('svg')
   .call(d3.behavior.zoom().on('zoom', function() {rescale()}))
     .append('svg:g');
 
-
 svg.append('rect')
   .attr('class', 'background')
   .attr('width', width)
@@ -42,28 +38,16 @@ var gcountries = svg.append('g')
   .append('g')
     .attr('id', 'countries');
 
-var glinks = svg.append('g')
-  .attr('transform', tf)
-  .append('g')
-    .attr('id', 'links');
+var glegend = svg.append('g')
+  .attr('transform', 'translate(0,' + (height - legendh) +')')
+  .attr('width', width)
+  .attr('height', legendh)
+  .attr('id', 'legend');
+glegend.append('svg:text').text('Legend').attr('class', 'heading');
 
 var garcs = svg.append('g')
   .attr('transform', tf)
   .attr('id', 'arcs');
-
-var spain = [-3.43, 40.23];
-var mexico = [-99.8, 19.26];
-var links = [{
-  'source': spain,
-  'target': mexico
-  }, {
-  'source': mexico,
-  'target': spain
-}];
-
-var click = function(d) {
-  console.log(d);
-}
 
 var linkcoords = function(d) {
   d.source = capitals[d.source];
@@ -77,44 +61,37 @@ var dollarval = function(d) {
   return Math.sqrt(usd) / 10000;
 };
 
-//FIXME use min and max of total
-var scalelinks = d3.scale.sqrt().domain([-10000000,10000000]);
-
 var rescale = function() {
   svg.attr('transform', 'translate(' + d3.event.translate + ')'
     + ' scale(' + d3.event.scale + ')')
 }
 
-//var current_sources = ['ESP', 'USA', 'DEU'];
-var current_sources = ['DEU', 'ESP', 'FRA', 'GBR', 'USA'];
-//var current_targets = ['AFG', 'VUT', 'VEN', 'VNM'];
-var current_targets = ['VUT'];
+//FIXME use min and max of total
+var scalelinks = d3.scale.sqrt().domain([-10000000,10000000]);
 
-var drawlinks = function(data) {
+//FIXME implement country select
+var click = function(d) {
+  console.log(d);
+}
+
+var drawlinks = function(links) {
   garcs.selectAll('path')
-    .data(data.filter(function(d){
-      return ('undefined' !== typeof capitals[d.source]
-        && 'undefined' !== typeof capitals[d.target]
-        && -1 !== current_sources.indexOf(d.source)
-//        && -1 !== current_targets.indexOf(d.target)
-      ) ? true : false
-    }))
+    .data(links)
     .enter().append('path')
-      .style('stroke', function(d) {return color(d.source)})
-//      .style('fill', function(d) {return color(d.source)})
-      .style('stroke-width', function(d) {return dollarval(d.usdollars)})
-      .style('fill', 'none')
       .style('opacity', .5)
+      .style('stroke', function(d) {return color(d.source)})
+      .style('stroke-width', function(d) {return dollarval(d)})
+      .style('fill', 'none')
       .attr('d', function(d) {
         d = linkcoords(d);
         var p = {source:d.source.coords, target:d.target.coords};
         return path(arc(p))
       })
+//      .style('fill', function(d) {return color(d.source)})
 //      .attr('d', function (d) {
 //        var inflow = false;
 //        d = linkcoords(d);
-////        return curvedarrow(projection(d.source.coords), projection(d.target.coords), inflow, Math.sqrt(d.usdollars) / 1000);
-//        return curvedarrow(projection(d.source.coords), projection(d.target.coords), inflow, 10);
+//        return curvedarrow(projection(d.source.coords), projection(d.target.coords), inflow, Math.sqrt(d.usdollars) / 1000);
 //      })
       .on('mouseover', function(d) {
         garcs.selectAll('path').style('opacity', .1);
@@ -126,10 +103,37 @@ var drawlinks = function(data) {
       })
       .append('title')
         .text(function(d) {return format(d.usdollars) + ' USD from ' + d.source.name + ' to ' + d.target.name});
-
 }
 
-drawlinks(donations);
+var drawlegend = function(links) {
+  glegend.selectAll('text')
+    .data(links)
+    .enter().append('svg:text')
+//      .attr('text-anchor', 'middle')
+      .attr('y', function(d, i) {return 10 * i})
+      .attr('x', 0)
+      .attr('dx', 10)
+      .attr('dy', 8)
+      .attr('fill', 'red')
+      .text(function(d) {console.log(d); return 'Source: ' + d.source.iso});
+}
+
+// main program flow
+//var current_sources = ['ESP', 'USA', 'DEU'];
+var current_sources = ['DEU', 'ESP', 'FRA', 'GBR', 'USA'];
+//var current_targets = ['AFG', 'VUT', 'VEN', 'VNM'];
+var current_targets = ['VUT'];
+
+selected = donations.filter(function(d){
+  return ('undefined' !== typeof capitals[d.source]
+    && 'undefined' !== typeof capitals[d.target]
+    && -1 !== current_sources.indexOf(d.source)
+    //&& -1 !== current_targets.indexOf(d.target)
+  ) ? true : false
+});
+
+drawlinks(selected);
+drawlegend(selected);
 
 d3.json('world-countries.json', function(error, json) { // d3 v3
 //d3.json('world-countries.json', function(json) { // d3 v2
@@ -141,7 +145,7 @@ d3.json('world-countries.json', function(error, json) { // d3 v3
       .on('click', click);
 
   // draw circles for capitals
-  glinks.selectAll('circle')
+  gcountries.selectAll('circle')
     .data(geocountries.filter(function(d){
       // ignore countries with missing data for now
       return ('undefined' === typeof capitals[d.id]) ? false : true;
@@ -154,7 +158,9 @@ d3.json('world-countries.json', function(error, json) { // d3 v3
         .text(function(d) {return capitals[d.id].name + ', ' + d.properties.name});
 });
 
+// unused
 // adapted from http://www.uis.unesco.org/Education/Pages/international-student-flow-viz.aspx
+// inflow / outflow doesn't work
 function curvedarrow(src, trg, inflow, width) {
   var arrowOffset = width;
 
@@ -173,11 +179,10 @@ function curvedarrow(src, trg, inflow, width) {
   erangle = Math.asin((ra/2)/er); // angle of the arc
 
   if (isNaN(erangle)) {
-    //console.log(src[0], src[1], ra, er, erangle)
+    console.log(src[0], src[1], dx, dy, ra, er, erangle)
+    // FIXME arrow will be missing
     return;
   }
-
-console.log(dx, dy)
 
   rc = Math.tan(erangle)*(ra/2); // distance between direct line and control point
 
