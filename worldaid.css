@@ -1,6 +1,9 @@
 .background {
-fill: none;
+/*fill: none;*/
 pointer-events: all;
+}
+rect {
+fill: #fff;
 }
 #countries {
 fill: #ddd;
@@ -9,9 +12,8 @@ stroke-width: 1px;
 }
 #links circle {
 fill: #666;
-opacity: .8;
+opacity: .2;
 }
-
 circle title {
 font: 13px sans-serif;
 fill:#333;
