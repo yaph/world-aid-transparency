@@ -1,0 +1,18 @@
+.background {
+fill: none;
+pointer-events: all;
+}
+#countries {
+fill: #ddd;
+stroke: #fff;
+stroke-width: 1px;
+}
+#links circle {
+fill: #666;
+opacity: .8;
+}
+
+circle title {
+font: 13px sans-serif;
+fill:#333;
+}
