@@ -2,7 +2,7 @@
 
 var width = 720,
   height = 540,
-  legendh = 100,
+  legendh = 60,
   pathopacity = .5,
   selected,
   centered,
@@ -39,11 +39,13 @@ var gcountries = svg.append('g')
     .attr('id', 'countries');
 
 var glegend = svg.append('g')
-  .attr('transform', 'translate(0,' + (height - legendh) +')')
+  .attr('transform', 'translate(10,' + (height - legendh) +')')
   .attr('width', width)
   .attr('height', legendh)
   .attr('id', 'legend');
-glegend.append('svg:text').text('Legend').attr('class', 'heading');
+glegend.append('svg:text')
+  .text('Legend')
+  .attr('class', 'heading');
 
 var garcs = svg.append('g')
   .attr('transform', tf)
@@ -106,29 +108,45 @@ var drawlinks = function(links) {
 }
 
 var drawlegend = function(links) {
-  glegend.selectAll('text')
-    .data(links)
-    .enter().append('svg:text')
-//      .attr('text-anchor', 'middle')
-      .attr('y', function(d, i) {return 10 * i})
-      .attr('x', 0)
-      .attr('dx', 10)
-      .attr('dy', 8)
+  var cw = 142;
+  glegend.selectAll('text.country')
+    .data(links).enter()
+    .append('svg:text')
+      .attr('class', 'country')
+      .attr('x', function(d, i) {return cw * i})
+      .attr('dx', 20)
+      .attr('dy', 20)
       .attr('fill', 'red')
-      .text(function(d) {console.log(d); return 'Source: ' + d.source.iso});
+      .text(function(d) {console.log(d); return d.source.name});
+
+  glegend.selectAll('line.country')
+    .data(links).enter()
+    .append('svg:line')
+      .attr('class', 'country')
+      .attr('x1', function(d, i) {return cw * i})
+      .attr('y1', 16)
+      .attr('x2', function(d, i) {return 14 + cw * i})
+      .attr('y2', 16)
+      .attr('stroke', function(d) {return color(d.source.iso)})
+      .attr('stroke-width', 4);
+
+  glegend.append('svg:text')
+    .attr('class', 'footer')
+    .attr('dy', 40)
+    .text('blah');
 }
 
 // main program flow
 //var current_sources = ['ESP', 'USA', 'DEU'];
-var current_sources = ['DEU', 'ESP', 'FRA', 'GBR', 'USA'];
-//var current_targets = ['AFG', 'VUT', 'VEN', 'VNM'];
-var current_targets = ['VUT'];
+var current_sources = ['AUS', 'DEU', 'ESP', 'FRA', 'GBR', 'USA'];
+var current_targets = ['AFG', 'VUT', 'VEN', 'VNM'];
+//var current_targets = ['VUT'];
 
 selected = donations.filter(function(d){
   return ('undefined' !== typeof capitals[d.source]
     && 'undefined' !== typeof capitals[d.target]
     && -1 !== current_sources.indexOf(d.source)
-    //&& -1 !== current_targets.indexOf(d.target)
+    && -1 !== current_targets.indexOf(d.target)
   ) ? true : false
 });
 

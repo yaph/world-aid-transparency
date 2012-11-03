@@ -16,12 +16,12 @@ font: 13px sans-serif;
 fill:#333;
 }
 #legend {
+font: 12px sans-serif;
 fill: #fff;
 }
 #legend .heading {
-font: bold 16px sans-serif;
+font: bold 14px sans-serif;
 }
 #legend text {
-font: 13px sans-serif;
 fill:#333;
 }
