@@ -1,0 +1,3 @@
+not enough data
+
+'IT.PRT.NEWS.P3': 'Daily newspapers (per 1,000 people)'

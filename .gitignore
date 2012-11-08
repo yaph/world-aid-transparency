@@ -1,6 +1,5 @@
-ext/*
-
 *.py[co]
+*.csv
 
 # Packages
 *.egg
