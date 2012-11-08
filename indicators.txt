@@ -1,0 +1,9 @@
+BN.CAB.XOKA.GD.ZS	Current account balance (% of GDP)
+BN.GSR.FCTY.CD	Net income (BoP, current US$)
+DT.DFR.DPPG.CD	Debt forgiveness or reduction (current US$)
+DT.DOD.DECT.CD	External debt stocks, total (DOD, current US$)	Total external debt is debt owed to nonresidents repayable in foreign currency, goods, or services. It is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, short-term debt, and use of IMF credit. Data are in current U.S. dollars.
+DT.NFL.BLAT.CD	Net financial flows, bilateral (NFL, current US$)	Bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Data are in current U.S. dollars.
+EN.ATM.CO2E.KT	CO2 emissions (kt)	Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.
+EN.ATM.GHGO.KT.CE	Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)	Other greenhouse gas emissions are by-product emissions of hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride.
+
+400

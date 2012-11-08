@@ -101,7 +101,6 @@ with open('WDI_GDF_Data.csv', 'rb') as f:
 
 # add google transparency data
 googletransparency.add(countries, years)
-print countries['2010']['USA']
 
 # genarate rank lists needed for initial selection of countries
 for y, cdict in countries.items():
