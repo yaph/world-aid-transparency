@@ -1,9 +1,100 @@
+# sparse data
+
+IC.FRM.CORR.ZS	Informal payments to public officials (% of firms)
+IC.REG.DURS	Time required to start a business (days)
+IC.TAX.GIFT.ZS	Firms expected to give gifts in meetings with tax officials (% of firms)
+
+# enough data
+
+## General
+
+SP.POP.TOTL	Population, total
+EN.POP.DNST	Population density (people per sq. km of land area)
+NY.GDP.MKTP.CD	GDP (current US$)
+SH.DYN.MORT	Mortality rate, under-5 (per 1,000 live births)
+
+## BN
+
 BN.CAB.XOKA.GD.ZS	Current account balance (% of GDP)
 BN.GSR.FCTY.CD	Net income (BoP, current US$)
-DT.DFR.DPPG.CD	Debt forgiveness or reduction (current US$)
-DT.DOD.DECT.CD	External debt stocks, total (DOD, current US$)	Total external debt is debt owed to nonresidents repayable in foreign currency, goods, or services. It is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, short-term debt, and use of IMF credit. Data are in current U.S. dollars.
-DT.NFL.BLAT.CD	Net financial flows, bilateral (NFL, current US$)	Bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Data are in current U.S. dollars.
-EN.ATM.CO2E.KT	CO2 emissions (kt)	Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.
-EN.ATM.GHGO.KT.CE	Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)	Other greenhouse gas emissions are by-product emissions of hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride.
 
-400
+## Debt
+
+DT.DFR.DPPG.CD	Debt forgiveness or reduction (current US$)
+DT.DOD.DECT.CD	External debt stocks, total (DOD, current US$)
+
+## IQ
+
+IQ.CPA.DEBT.XQ	CPIA debt policy rating (1=low to 6=high)
+IQ.CPA.FINS.XQ	CPIA financial sector rating (1=low to 6=high)
+IQ.CPA.FISP.XQ	CPIA fiscal policy rating (1=low to 6=high)
+IQ.CPA.PADM.XQ	CPIA quality of public administration rating (1=low to 6=high)
+IQ.CPA.PROT.XQ	CPIA social protection rating (1=low to 6=high)
+IQ.CPA.TRAD.XQ	CPIA trade rating (1=low to 6=high)
+IQ.CPA.TRAN.XQ	CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)
+
+## Communications
+
+IT.CEL.SETS	Mobile cellular subscriptions
+IT.MLT.MAIN	Telephone lines
+IT.NET.BBND	Fixed broadband Internet subscribers
+IT.NET.SECR	Secure Internet servers
+IT.NET.USER	Internet users
+
+## Military
+
+MS.MIL.TOTL.P1	Armed forces personnel, total
+MS.MIL.XPND.CN	Military expenditure (current LCU)
+MS.MIL.XPND.GD.ZS	Military expenditure (% of GDP)
+MS.MIL.XPND.ZS	Military expenditure (% of central government expenditure)
+MS.MIL.XPRT.KD	Arms exports (constant 1990 US$)
+NE.IMP.GNFS.CD	Imports of goods and services (current US$)
+
+## Education ???
+
+SE.ADT.1524.LT.FE.ZS	Literacy rate, youth female (% of females ages 15-24)
+SE.ADT.1524.LT.MA.ZS	Literacy rate, youth male (% of males ages 15-24)
+SE.ADT.1524.LT.ZS	Literacy rate, youth total (% of people ages 15-24)
+SE.ADT.LITR.FE.ZS	Literacy rate, adult female (% of females ages 15 and above)
+SE.ADT.LITR.MA.ZS	Literacy rate, adult male (% of males ages 15 and above)
+SE.ADT.LITR.ZS	Literacy rate, adult total (% of people ages 15 and above)
+SE.XPD.TOTL.GB.ZS	Public spending on education, total (% of government expenditure)
+SE.XPD.TOTL.GD.ZS	Public spending on education, total (% of GDP)
+
+## Poverty
+
+SI.POV.2DAY	Poverty headcount ratio at $2 a day (PPP) (% of population)
+SI.POV.DDAY	Poverty headcount ratio at $1.25 a day (PPP) (% of population)
+SI.POV.GINI	GINI index
+SI.POV.NAGP	Poverty gap at national poverty line (%)
+SI.POV.NAHC	Poverty headcount ratio at national poverty line (% of population)
+
+## Employment
+SL.EMP.SELF.ZS	Self-employed, total (% of total employed)
+SL.EMP.TOTL.SP.ZS	Employment to population ratio, 15+, total (%)
+SL.UEM.1524.ZS	Unemployment, youth total (% of total labor force ages 15-24)
+SL.UEM.LTRM.ZS	Long-term unemployment (% of total unemployment)
+SL.UEM.TOTL.ZS	Unemployment, total (% of total labor force)
+
+###########################
+SM.POP.NETM	Net migration
+SM.POP.REFG	Refugee population by country or territory of asylum
+SM.POP.REFG.OR	Refugee population by country or territory of origin
+SM.POP.TOTL	International migrant stock, total
+SM.POP.TOTL.ZS	International migrant stock (% of population)
+SN.ITK.DEFC.ZS	Prevalence of undernourishment (% of population)
+
+SP.DYN.LE00.FE.IN	Life expectancy at birth, female (years)
+SP.DYN.LE00.IN	Life expectancy at birth, total (years)
+SP.DYN.LE00.MA.IN	Life expectancy at birth, male (years)
+
+SP.POP.GROW	Population growth (annual %)
+SP.POP.SCIE.RD.P6	Researchers in R&D (per million people)
+SP.POP.TECH.RD.P6	Technicians in R&D (per million people)
+
+
+VC.BTL.DETH	Battle-related deaths (number of people)
+VC.IDP.TOTL.HE	Internally displaced persons (number, high estimate)
+VC.IDP.TOTL.LE	Internally displaced persons (number, low estimate)
+VC.IHR.PSRC.P5	Intentional homicides (per 100,000 people)
+VC.PKP.TOTL.UN	Presence of peace keepers (number of troops, police, and military observers in mandate)
