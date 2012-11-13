@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
-import re #FIXME remove
-import csv, json, countryinfo, googletransparency
+import csv, json, countryinfo, googletransparency, geonamescache
 from collections import defaultdict
 from operator import itemgetter
+
+# used for checks
+gc = geonamescache.GeonamesCache()
+isos = [i['iso3'] for i in gc.get_countries().values()]
 
 # recent years with most comprehensive datasets
 # convert to strings to be able to get field position
@@ -47,12 +50,49 @@ donors = {
 # make accessible by indicator id
 donors_iid = dict((v,k) for k,v in donors.items())
 
+# selected worldbank development indicators
 indicators = {
-    # below are indicators tested for enough data
+    'SP.POP.TOTL': 'Population, total',
+    'NY.GDP.MKTP.CD': 'GDP (current US$)',
+
     'IT.CEL.SETS.P2': 'Mobile cellular subscriptions (per 100 people)',
     'IT.MLT.MAIN.P2': 'Telephone lines (per 100 people)',
     'IT.NET.BBND.P2': 'Fixed broadband Internet subscribers (per 100 people)',
-    'IT.NET.USER.P2': 'Internet users (per 100 people)'
+    'IT.NET.USER.P2': 'Internet users (per 100 people)',
+
+    'IC.FRM.CORR.ZS': 'Informal payments to public officials (% of firms)',
+    'IC.REG.DURS': 'Time required to start a business (days)',
+    'IC.TAX.GIFT.ZS': 'Firms expected to give gifts in meetings with tax officials (% of firms)',
+
+    'BN.CAB.XOKA.GD.ZS': 'Current account balance (% of GDP)',
+    'BN.GSR.FCTY.CD': 'Net income (BoP, current US$)',
+
+    'DT.DFR.DPPG.CD': 'Debt forgiveness or reduction (current US$)',
+    'DT.DOD.DECT.CD': 'External debt stocks, total (DOD, current US$)',
+
+    'IQ.CPA.DEBT.XQ': 'CPIA debt policy rating (1=low to 6=high)',
+    'IQ.CPA.FINS.XQ': 'CPIA financial sector rating (1=low to 6=high)',
+    'IQ.CPA.FISP.XQ': 'CPIA fiscal policy rating (1=low to 6=high)',
+    'IQ.CPA.PADM.XQ': 'CPIA quality of public administration rating (1=low to 6=high)',
+    'IQ.CPA.PROT.XQ': 'CPIA social protection rating (1=low to 6=high)',
+    'IQ.CPA.TRAD.XQ': 'CPIA trade rating (1=low to 6=high)',
+    'IQ.CPA.TRAN.XQ': 'CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)',
+
+    'MS.MIL.TOTL.P1': 'Armed forces personnel, total',
+    'MS.MIL.XPND.CN': 'Military expenditure (current LCU)',
+    'MS.MIL.XPND.GD.ZS': 'Military expenditure (% of GDP)',
+    'MS.MIL.XPND.ZS': 'Military expenditure (% of central government expenditure)',
+    'MS.MIL.XPRT.KD': 'Arms exports (constant 1990 US$)',
+    'NE.IMP.GNFS.CD': 'Imports of goods and services (current US$)',
+
+    'SE.ADT.1524.LT.FE.ZS': 'Literacy rate, youth female (% of females ages 15-24)',
+    'SE.ADT.1524.LT.MA.ZS': 'Literacy rate, youth male (% of males ages 15-24)',
+    'SE.ADT.1524.LT.ZS': 'Literacy rate, youth total (% of people ages 15-24)',
+    'SE.ADT.LITR.FE.ZS': 'Literacy rate, adult female (% of females ages 15 and above)',
+    'SE.ADT.LITR.MA.ZS': 'Literacy rate, adult male (% of males ages 15 and above)',
+    'SE.ADT.LITR.ZS': 'Literacy rate, adult total (% of people ages 15 and above)',
+    'SE.XPD.TOTL.GB.ZS': 'Public spending on education, total (% of government expenditure)',
+    'SE.XPD.TOTL.GD.ZS': 'Public spending on education, total (% of GDP)'
 }
 
 def skipval(val):
@@ -68,6 +108,9 @@ def proc_row(row):
 
         val = float(val)
         iso = row[1].strip()
+        # only consider aid data at country level
+        if iso not in isos: continue
+
         indicator = row[3].strip()
 
         if val > 0 and indicator in donors_iid:
