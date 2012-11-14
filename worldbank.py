@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import csv, json, countryinfo, googletransparency, geonamescache
+import csv, json, countryinfo, adddata, geonamescache
 from collections import defaultdict
 from operator import itemgetter
 
@@ -108,6 +108,7 @@ def proc_row(row):
 
         val = float(val)
         iso = row[1].strip()
+
         # only consider aid data at country level
         if iso not in isos: continue
 
@@ -143,7 +144,7 @@ with open('WDI_GDF_Data.csv', 'rb') as f:
     proc_worldbank(r)
 
 # add google transparency data
-googletransparency.add(countries, years)
+adddata.add(countries, years)
 
 # genarate rank lists needed for initial selection of countries
 for y, cdict in countries.items():
@@ -152,7 +153,7 @@ for y, cdict in countries.items():
         ranks[y][rk] = []
         for iso, data in cdict.items():
             if rk in data:
-                ranks[y][rk].append({'iso': iso, 'val': data[rk]})
+                ranks[y][rk].append({'label': iso, 'val': data[rk]})
         # sort ranking by val
         ranks[y][rk].sort(key=itemgetter('val'))
 
