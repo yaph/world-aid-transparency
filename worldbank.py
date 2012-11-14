@@ -122,7 +122,7 @@ def proc_row(row):
             }]
             # update donation totals for donors and recipients
             countries[year][iso]['received'] = countries[year][iso].get('received', 0) + val
-            countries[year][src]['donated'] = countries[year][iso].get('donated', 0) + val
+            countries[year][src]['donated'] = countries[year][src].get('donated', 0) + val
 
         elif indicator in indicators:
             countries[year][iso][indicator] = val
