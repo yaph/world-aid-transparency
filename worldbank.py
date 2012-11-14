@@ -50,50 +50,35 @@ donors = {
 # make accessible by indicator id
 donors_iid = dict((v,k) for k,v in donors.items())
 
-# selected worldbank development indicators
-indicators = {
-    'SP.POP.TOTL': 'Population, total',
-    'NY.GDP.MKTP.CD': 'GDP (current US$)',
+# selected worldbank development indicators a list of dicts with types
+# that determine usage in visualization, e.g. type relation is used for 
+# "By Population" and "By GDB" views, recipient for scatterplot
+# rating is used for ratings like CPIA, global can be used for donors
+# and recipients
+indicators = [
+    {'type': 'relation', 'id': 'SP.POP.TOTL', 'label': 'Population, total'},
+    {'type': 'relation', 'id': 'NY.GDP.MKTP.CD', 'label': 'GDP (current US$)'},
 
-    'IT.CEL.SETS.P2': 'Mobile cellular subscriptions (per 100 people)',
-    'IT.MLT.MAIN.P2': 'Telephone lines (per 100 people)',
-    'IT.NET.BBND.P2': 'Fixed broadband Internet subscribers (per 100 people)',
-    'IT.NET.USER.P2': 'Internet users (per 100 people)',
+    {'type': 'rating', 'id': 'IQ.CPA.TRAN.XQ', 'label': 'CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)'},
 
-    'IC.FRM.CORR.ZS': 'Informal payments to public officials (% of firms)',
-    'IC.REG.DURS': 'Time required to start a business (days)',
-    'IC.TAX.GIFT.ZS': 'Firms expected to give gifts in meetings with tax officials (% of firms)',
+    {'type': 'global', 'id': 'SE.XPD.TOTL.GB.ZS', 'label': 'Public spending on education, total (% of government expenditure)'},
+    {'type': 'global', 'id': 'SE.XPD.TOTL.GD.ZS', 'label': 'Public spending on education, total (% of GDP)'},
 
-    'BN.CAB.XOKA.GD.ZS': 'Current account balance (% of GDP)',
-    'BN.GSR.FCTY.CD': 'Net income (BoP, current US$)',
+    {'type': 'global', 'id': 'IT.CEL.SETS.P2', 'label': 'Mobile cellular subscriptions (per 100 people)'},
+    {'type': 'global', 'id': 'IT.MLT.MAIN.P2', 'label': 'Telephone lines (per 100 people)'},
+    {'type': 'global', 'id': 'IT.NET.BBND.P2', 'label': 'Fixed broadband Internet subscribers (per 100 people)'},
+    {'type': 'global', 'id': 'IT.NET.USER.P2', 'label': 'Internet users (per 100 people)'},
 
-    'DT.DFR.DPPG.CD': 'Debt forgiveness or reduction (current US$)',
-    'DT.DOD.DECT.CD': 'External debt stocks, total (DOD, current US$)',
+    {'type': 'global', 'id': 'MS.MIL.TOTL.TF.ZS', 'label': 'Armed forces personnel (% of total labor force)'},
+    {'type': 'global', 'id': 'MS.MIL.XPND.GD.ZS', 'label': 'Military expenditure (% of GDP)'},
+    {'type': 'global', 'id': 'MS.MIL.XPND.ZS', 'label': 'Military expenditure (% of central government expenditure)'},
+    {'type': 'global', 'id': 'NE.IMP.GNFS.CD', 'label': 'Imports of goods and services (current US$)'},
 
-    'IQ.CPA.DEBT.XQ': 'CPIA debt policy rating (1=low to 6=high)',
-    'IQ.CPA.FINS.XQ': 'CPIA financial sector rating (1=low to 6=high)',
-    'IQ.CPA.FISP.XQ': 'CPIA fiscal policy rating (1=low to 6=high)',
-    'IQ.CPA.PADM.XQ': 'CPIA quality of public administration rating (1=low to 6=high)',
-    'IQ.CPA.PROT.XQ': 'CPIA social protection rating (1=low to 6=high)',
-    'IQ.CPA.TRAD.XQ': 'CPIA trade rating (1=low to 6=high)',
-    'IQ.CPA.TRAN.XQ': 'CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)',
-
-    'MS.MIL.TOTL.P1': 'Armed forces personnel, total',
-    'MS.MIL.XPND.CN': 'Military expenditure (current LCU)',
-    'MS.MIL.XPND.GD.ZS': 'Military expenditure (% of GDP)',
-    'MS.MIL.XPND.ZS': 'Military expenditure (% of central government expenditure)',
-    'MS.MIL.XPRT.KD': 'Arms exports (constant 1990 US$)',
-    'NE.IMP.GNFS.CD': 'Imports of goods and services (current US$)',
-
-    'SE.ADT.1524.LT.FE.ZS': 'Literacy rate, youth female (% of females ages 15-24)',
-    'SE.ADT.1524.LT.MA.ZS': 'Literacy rate, youth male (% of males ages 15-24)',
-    'SE.ADT.1524.LT.ZS': 'Literacy rate, youth total (% of people ages 15-24)',
-    'SE.ADT.LITR.FE.ZS': 'Literacy rate, adult female (% of females ages 15 and above)',
-    'SE.ADT.LITR.MA.ZS': 'Literacy rate, adult male (% of males ages 15 and above)',
-    'SE.ADT.LITR.ZS': 'Literacy rate, adult total (% of people ages 15 and above)',
-    'SE.XPD.TOTL.GB.ZS': 'Public spending on education, total (% of government expenditure)',
-    'SE.XPD.TOTL.GD.ZS': 'Public spending on education, total (% of GDP)'
-}
+    {'type': 'global', 'id': 'IC.REG.DURS', 'label': 'Time required to start a business (days)'},
+    {'type': 'global', 'id': 'BN.CAB.XOKA.GD.ZS', 'label': 'Current account balance (% of GDP)'},
+    {'type': 'global', 'id': 'DT.DOD.DECT.CD', 'label': 'External debt stocks, total (DOD, current US$)'}
+]
+indicator_ids = [i['id'] for i in indicators]
 
 def skipval(val):
     if val in [None, False, 0, '']:
@@ -125,7 +110,7 @@ def proc_row(row):
             countries[year][iso]['received'] = countries[year][iso].get('received', 0) + val
             countries[year][src]['donated'] = countries[year][src].get('donated', 0) + val
 
-        elif indicator in indicators:
+        elif indicator in indicator_ids:
             countries[year][iso][indicator] = val
 
 def proc_worldbank(reader):
@@ -168,7 +153,7 @@ with open('countrystats.js', 'w') as f:
 # write sample csv for exploration
 with open('country-stats-2010.csv', 'wb') as f:
     records = countries['2010']
-    fields = ['iso3'] + indicators.keys() + rankkeys
+    fields = ['iso3'] + indicator_ids + rankkeys
 
     writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
     writer.writerow(fields)

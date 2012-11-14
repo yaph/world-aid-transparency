@@ -6,3 +6,19 @@ DT.NFL.BLAT.CD	Net financial flows, bilateral (NFL, current US$)
 EN.ATM.CO2E.KT	CO2 emissions (kt)
 EN.ATM.GHGO.KT.CE	Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)
 IQ.WEF.CUST.XQ	Burden of customs procedure, WEF (1=extremely inefficient to 7=extremely efficient)
+
+SE.ADT.1524.LT.FE.ZS	Literacy rate, youth female (% of females ages 15-24)
+SE.ADT.1524.LT.MA.ZS	Literacy rate, youth male (% of males ages 15-24)
+SE.ADT.1524.LT.ZS	Literacy rate, youth total (% of people ages 15-24)
+SE.ADT.LITR.FE.ZS	Literacy rate, adult female (% of females ages 15 and above)
+SE.ADT.LITR.MA.ZS	Literacy rate, adult male (% of males ages 15 and above)
+SE.ADT.LITR.ZS	Literacy rate, adult total (% of people ages 15 and above)
+
+not enough data for recipients
+    'MS.MIL.TOTL.P1': 'Armed forces personnel, total',
+    'MS.MIL.XPRT.KD': 'Arms exports (constant 1990 US$)',
+    'MS.MIL.XPND.CN': 'Military expenditure (current LCU)',
+    'BN.GSR.FCTY.CD': 'Net income (BoP, current US$)',
+    'DT.DFR.DPPG.CD': 'Debt forgiveness or reduction (current US$)',
+    'IC.FRM.CORR.ZS': 'Informal payments to public officials (% of firms)',
+    'IC.TAX.GIFT.ZS': 'Firms expected to give gifts in meetings with tax officials (% of firms)',
