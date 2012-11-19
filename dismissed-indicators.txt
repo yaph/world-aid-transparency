@@ -14,7 +14,7 @@ SE.ADT.LITR.FE.ZS	Literacy rate, adult female (% of females ages 15 and above)
 SE.ADT.LITR.MA.ZS	Literacy rate, adult male (% of males ages 15 and above)
 SE.ADT.LITR.ZS	Literacy rate, adult total (% of people ages 15 and above)
 
-not enough data for recipients
+not enough data for recipients or unreadable plots
     'MS.MIL.TOTL.P1': 'Armed forces personnel, total',
     'MS.MIL.XPRT.KD': 'Arms exports (constant 1990 US$)',
     'MS.MIL.XPND.CN': 'Military expenditure (current LCU)',
@@ -22,3 +22,8 @@ not enough data for recipients
     'DT.DFR.DPPG.CD': 'Debt forgiveness or reduction (current US$)',
     'IC.FRM.CORR.ZS': 'Informal payments to public officials (% of firms)',
     'IC.TAX.GIFT.ZS': 'Firms expected to give gifts in meetings with tax officials (% of firms)',
+
+    {'type': 'global', 'id': 'NE.IMP.GNFS.CD', 'label': 'Imports of goods and services (current US$)'},
+    {'type': 'global', 'id': 'IT.NET.BBND.P2', 'label': 'Fixed broadband Internet subscribers (per 100 people)'},
+    {'type': 'global', 'id': 'MS.MIL.TOTL.TF.ZS', 'label': 'Armed forces personnel (% of total labor force)'},
+    {'type': 'global', 'id': 'DT.DOD.DECT.CD', 'label': 'External debt stocks, total (DOD, current US$)'},

@@ -61,22 +61,35 @@ indicators = [
 
     {'type': 'rating', 'id': 'IQ.CPA.TRAN.XQ', 'label': 'CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)'},
 
+    {'type': 'global', 'id': 'SH.DYN.MORT', 'label': 'Mortality rate, under-5 (per 1,000 live births)'},
+    {'type': 'global', 'id': 'SP.POP.GROW', 'label': 'Population growth (annual %)'},
+    {'type': 'global', 'id': 'SP.DYN.LE00.FE.IN', 'label': 'Life expectancy at birth, female (years)'},
+    {'type': 'global', 'id': 'SP.DYN.LE00.MA.IN', 'label': 'Life expectancy at birth, male (years)'},
+    {'type': 'global', 'id': 'SH.XPD.PCAP', 'label': 'Health expenditure per capita (current US$)'},
+    {'type': 'global', 'id': 'SH.TBS.INCD', 'label': 'Incidence of tuberculosis (per 100,000 people)'},
+    {'type': 'global', 'id': 'SH.MED.BEDS.ZS', 'label': 'Hospital beds (per 1,000 people)'},
+    {'type': 'global', 'id': 'SH.STA.ACSN',  'label': 'Improved sanitation facilities (% of population with access)'},
+
     {'type': 'global', 'id': 'SE.XPD.TOTL.GB.ZS', 'label': 'Public spending on education, total (% of government expenditure)'},
     {'type': 'global', 'id': 'SE.XPD.TOTL.GD.ZS', 'label': 'Public spending on education, total (% of GDP)'},
+    {'type': 'global', 'id': 'SE.PRM.CMPT.ZS', 'label': 'Primary completion rate, total (% of relevant age group)'},
+    {'type': 'global', 'id': 'SE.ENR.PRSC.FM.ZS', 'label': 'Ratio of girls to boys in primary and secondary education (%)'},
+    {'type': 'global', 'id': 'SE.PRM.ENRL.TC.ZS', 'label': 'Pupil-teacher ratio, primary'},
+    {'type': 'global', 'id': 'SG.GEN.PARL.ZS', 'label': 'Proportion of seats held by women in national parliaments (%)'},
 
     {'type': 'global', 'id': 'IT.CEL.SETS.P2', 'label': 'Mobile cellular subscriptions (per 100 people)'},
     {'type': 'global', 'id': 'IT.MLT.MAIN.P2', 'label': 'Telephone lines (per 100 people)'},
-    {'type': 'global', 'id': 'IT.NET.BBND.P2', 'label': 'Fixed broadband Internet subscribers (per 100 people)'},
     {'type': 'global', 'id': 'IT.NET.USER.P2', 'label': 'Internet users (per 100 people)'},
+    {'type': 'global', 'id': 'IT.NET.SECR.P6', 'label': 'Secure Internet servers (per 1 million people)'},
 
-    {'type': 'global', 'id': 'MS.MIL.TOTL.TF.ZS', 'label': 'Armed forces personnel (% of total labor force)'},
     {'type': 'global', 'id': 'MS.MIL.XPND.GD.ZS', 'label': 'Military expenditure (% of GDP)'},
     {'type': 'global', 'id': 'MS.MIL.XPND.ZS', 'label': 'Military expenditure (% of central government expenditure)'},
-    {'type': 'global', 'id': 'NE.IMP.GNFS.CD', 'label': 'Imports of goods and services (current US$)'},
 
-    {'type': 'global', 'id': 'IC.REG.DURS', 'label': 'Time required to start a business (days)'},
     {'type': 'global', 'id': 'BN.CAB.XOKA.GD.ZS', 'label': 'Current account balance (% of GDP)'},
-    {'type': 'global', 'id': 'DT.DOD.DECT.CD', 'label': 'External debt stocks, total (DOD, current US$)'}
+    {'type': 'global', 'id': 'GC.TAX.TOTL.GD.ZS', 'label': 'Tax revenue (% of GDP)'},
+    {'type': 'global', 'id': 'SL.UEM.TOTL.ZS', 'label': 'Unemployment, total (% of total labor force)'},
+    {'type': 'global', 'id': 'IC.REG.DURS', 'label': 'Time required to start a business (days)'},
+    {'type': 'global', 'id': 'IC.REG.COST.PC.ZS', 'label': 'Cost of business start-up procedures (% of GNI per capita)'}
 ]
 indicator_ids = [i['id'] for i in indicators]
 
