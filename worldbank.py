@@ -113,7 +113,7 @@ def proc_row(row):
             src = donors_iid[indicator]
             donations[year] = donations.get(year, []) + [{
                 'source': donors_iid[indicator],
-                'target': row[1].strip(),
+                'target': iso,
                 'usd': val
             }]
             # update donation totals for donors and recipients
