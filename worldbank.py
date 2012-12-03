@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import csv, json, countryinfo, adddata, geonamescache
+import csv, json, countryinfo, adddata, geonamescache, wbfixes
 from collections import defaultdict
 from operator import itemgetter
 
@@ -70,7 +70,6 @@ indicators = [
     {'type': 'global', 'id': 'SH.MED.BEDS.ZS', 'label': 'Hospital beds (per 1,000 people)'},
     {'type': 'global', 'id': 'SH.STA.ACSN',  'label': 'Improved sanitation facilities (% of population with access)'},
 
-    {'type': 'global', 'id': 'SE.XPD.TOTL.GB.ZS', 'label': 'Public spending on education, total (% of government expenditure)'},
     {'type': 'global', 'id': 'SE.XPD.TOTL.GD.ZS', 'label': 'Public spending on education, total (% of GDP)'},
     {'type': 'global', 'id': 'SE.PRM.CMPT.ZS', 'label': 'Primary completion rate, total (% of relevant age group)'},
     {'type': 'global', 'id': 'SE.ENR.PRSC.FM.ZS', 'label': 'Ratio of girls to boys in primary and secondary education (%)'},
@@ -80,11 +79,8 @@ indicators = [
     {'type': 'global', 'id': 'IT.CEL.SETS.P2', 'label': 'Mobile cellular subscriptions (per 100 people)'},
     {'type': 'global', 'id': 'IT.MLT.MAIN.P2', 'label': 'Telephone lines (per 100 people)'},
     {'type': 'global', 'id': 'IT.NET.USER.P2', 'label': 'Internet users (per 100 people)'},
-    {'type': 'global', 'id': 'IT.NET.SECR.P6', 'label': 'Secure Internet servers (per 1 million people)'},
 
     {'type': 'global', 'id': 'MS.MIL.XPND.GD.ZS', 'label': 'Military expenditure (% of GDP)'},
-    {'type': 'global', 'id': 'MS.MIL.XPND.ZS', 'label': 'Military expenditure (% of central government expenditure)'},
-
     {'type': 'global', 'id': 'BN.CAB.XOKA.GD.ZS', 'label': 'Current account balance (% of GDP)'},
     {'type': 'global', 'id': 'GC.TAX.TOTL.GD.ZS', 'label': 'Tax revenue (% of GDP)'},
     {'type': 'global', 'id': 'SL.UEM.TOTL.ZS', 'label': 'Unemployment, total (% of total labor force)'},
@@ -105,7 +101,8 @@ def proc_row(row):
         if skipval(val): continue
 
         val = float(val)
-        iso = row[1].strip()
+        iso = wbfixes.get_iso(row[1].strip())
+        if iso is None: continue
 
         # only consider aid data at country level
         if iso not in isos: continue

@@ -14,7 +14,7 @@ SE.ADT.LITR.FE.ZS	Literacy rate, adult female (% of females ages 15 and above)
 SE.ADT.LITR.MA.ZS	Literacy rate, adult male (% of males ages 15 and above)
 SE.ADT.LITR.ZS	Literacy rate, adult total (% of people ages 15 and above)
 
-not enough data for recipients or unreadable plots
+not enough data for recipients, unreadable plots, or somewhat redundant
     'MS.MIL.TOTL.P1': 'Armed forces personnel, total',
     'MS.MIL.XPRT.KD': 'Arms exports (constant 1990 US$)',
     'MS.MIL.XPND.CN': 'Military expenditure (current LCU)',
@@ -27,3 +27,6 @@ not enough data for recipients or unreadable plots
     {'type': 'global', 'id': 'IT.NET.BBND.P2', 'label': 'Fixed broadband Internet subscribers (per 100 people)'},
     {'type': 'global', 'id': 'MS.MIL.TOTL.TF.ZS', 'label': 'Armed forces personnel (% of total labor force)'},
     {'type': 'global', 'id': 'DT.DOD.DECT.CD', 'label': 'External debt stocks, total (DOD, current US$)'},
+    {'type': 'global', 'id': 'IT.NET.SECR.P6', 'label': 'Secure Internet servers (per 1 million people)'},
+    {'type': 'global', 'id': 'SE.XPD.TOTL.GB.ZS', 'label': 'Public spending on education, total (% of government expenditure)'},
+    {'type': 'global', 'id': 'MS.MIL.XPND.ZS', 'label': 'Military expenditure (% of central government expenditure)'},
